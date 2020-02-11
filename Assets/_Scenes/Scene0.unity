@@ -12987,7 +12987,7 @@ GameObject:
   - component: {fileID: 1501314039}
   - component: {fileID: 1501314038}
   m_Layer: 0
-  m_Name: LightBandit2_1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
