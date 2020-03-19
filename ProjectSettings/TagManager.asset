@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2300765085
     locked: 0
+  - name: ItemsBackground
+    uniqueID: 2705510481
+    locked: 0
   - name: Forground
     uniqueID: 2001218363
     locked: 0
