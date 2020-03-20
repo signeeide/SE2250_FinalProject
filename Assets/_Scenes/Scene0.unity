@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 79621726}
   - component: {fileID: 79621725}
   - component: {fileID: 79621727}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_44 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 131329964}
   - component: {fileID: 131329965}
   - component: {fileID: 131329966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 157692915}
   - component: {fileID: 157692917}
   - component: {fileID: 157692916}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_123 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1537,6 +1537,99 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &205190716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205190717}
+  - component: {fileID: 205190720}
+  - component: {fileID: 205190719}
+  - component: {fileID: 205190718}
+  m_Layer: 0
+  m_Name: FootPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &205190717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205190716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.044, y: -0.162, z: -0.65453756}
+  m_LocalScale: {x: 0.013596297, y: 0.014806826, z: 0.3088797}
+  m_Children: []
+  m_Father: {fileID: 1501314039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &205190718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205190716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &205190719
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205190716}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &205190720
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205190716}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &208260213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1641,7 @@ GameObject:
   - component: {fileID: 208260215}
   - component: {fileID: 208260214}
   - component: {fileID: 208260216}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,7 +1830,7 @@ GameObject:
   - component: {fileID: 215710578}
   - component: {fileID: 215710579}
   - component: {fileID: 215710580}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1926,7 +2019,7 @@ GameObject:
   - component: {fileID: 225742515}
   - component: {fileID: 225742517}
   - component: {fileID: 225742516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_123 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2115,7 +2208,7 @@ GameObject:
   - component: {fileID: 261101267}
   - component: {fileID: 261101266}
   - component: {fileID: 261101268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2340,7 +2433,7 @@ GameObject:
   - component: {fileID: 278522392}
   - component: {fileID: 278522391}
   - component: {fileID: 278522393}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2622,7 @@ GameObject:
   - component: {fileID: 299473120}
   - component: {fileID: 299473119}
   - component: {fileID: 299473121}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2712,7 +2805,7 @@ GameObject:
   - component: {fileID: 301900104}
   - component: {fileID: 301900103}
   - component: {fileID: 301900105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_44 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3128,7 +3221,7 @@ GameObject:
   - component: {fileID: 351984332}
   - component: {fileID: 351984333}
   - component: {fileID: 351984334}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3317,7 +3410,7 @@ GameObject:
   - component: {fileID: 361774815}
   - component: {fileID: 361774816}
   - component: {fileID: 361774817}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3512,7 +3605,7 @@ GameObject:
   - component: {fileID: 389188858}
   - component: {fileID: 389188859}
   - component: {fileID: 389188860}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3944,7 +4037,7 @@ GameObject:
   - component: {fileID: 445526473}
   - component: {fileID: 445526474}
   - component: {fileID: 445526475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4576,7 +4669,7 @@ GameObject:
   - component: {fileID: 548879337}
   - component: {fileID: 548879336}
   - component: {fileID: 548879335}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4681,7 +4774,7 @@ GameObject:
   - component: {fileID: 557112320}
   - component: {fileID: 557112319}
   - component: {fileID: 557112321}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4789,7 +4882,7 @@ GameObject:
   - component: {fileID: 582829790}
   - component: {fileID: 582829791}
   - component: {fileID: 582829792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5128,7 +5221,7 @@ GameObject:
   - component: {fileID: 614846530}
   - component: {fileID: 614846529}
   - component: {fileID: 614846531}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5311,7 +5404,7 @@ GameObject:
   - component: {fileID: 630654357}
   - component: {fileID: 630654356}
   - component: {fileID: 630654358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5419,7 +5512,7 @@ GameObject:
   - component: {fileID: 632544593}
   - component: {fileID: 632544592}
   - component: {fileID: 632544594}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5987,12 +6080,12 @@ PrefabInstance:
     - target: {fileID: 212469174083801488, guid: d10cbe6b249ddc34db2eae14d2ae9f3d,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 2001218363
+      value: -1589456815
       objectReference: {fileID: 0}
     - target: {fileID: 212469174083801488, guid: d10cbe6b249ddc34db2eae14d2ae9f3d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d10cbe6b249ddc34db2eae14d2ae9f3d, type: 3}
@@ -6094,7 +6187,7 @@ GameObject:
   - component: {fileID: 668024803}
   - component: {fileID: 668024804}
   - component: {fileID: 668024805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6676,8 +6769,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2001218363
-  m_SortingLayer: -1
+  m_SortingLayerID: -1589456815
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 07e41a4feae544b6e8ce053545f68e4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6802,7 +6895,7 @@ GameObject:
   - component: {fileID: 857225357}
   - component: {fileID: 857225356}
   - component: {fileID: 857225358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6965,12 +7058,12 @@ PrefabInstance:
     - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 2001218363
+      value: -1589456815
       objectReference: {fileID: 0}
     - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573f2969d3071a44fa563048fb3422d8, type: 3}
@@ -7255,7 +7348,7 @@ GameObject:
   - component: {fileID: 905347965}
   - component: {fileID: 905347966}
   - component: {fileID: 905347967}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7756,8 +7849,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2001218363
-  m_SortingLayer: -1
+  m_SortingLayerID: -1589456815
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae3918a914038694d852d0bb81f62473, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7795,7 +7888,7 @@ GameObject:
   - component: {fileID: 942506203}
   - component: {fileID: 942506202}
   - component: {fileID: 942506204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7903,7 +7996,7 @@ GameObject:
   - component: {fileID: 946040030}
   - component: {fileID: 946040029}
   - component: {fileID: 946040031}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_44 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8011,7 +8104,7 @@ GameObject:
   - component: {fileID: 953223609}
   - component: {fileID: 953223608}
   - component: {fileID: 953223610}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8414,6 +8507,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.6666667
       objectReference: {fileID: 0}
+    - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1589456815
+      objectReference: {fileID: 0}
+    - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573f2969d3071a44fa563048fb3422d8, type: 3}
 --- !u!1 &983372175
@@ -8751,7 +8854,7 @@ GameObject:
   - component: {fileID: 1024399018}
   - component: {fileID: 1024399017}
   - component: {fileID: 1024399019}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9027,7 +9130,7 @@ GameObject:
   - component: {fileID: 1058047183}
   - component: {fileID: 1058047182}
   - component: {fileID: 1058047184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9216,7 +9319,7 @@ GameObject:
   - component: {fileID: 1064041965}
   - component: {fileID: 1064041964}
   - component: {fileID: 1064041966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9324,7 +9427,7 @@ GameObject:
   - component: {fileID: 1074786689}
   - component: {fileID: 1074786688}
   - component: {fileID: 1074786690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9432,7 +9535,7 @@ GameObject:
   - component: {fileID: 1089438991}
   - component: {fileID: 1089438990}
   - component: {fileID: 1089438992}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9708,7 +9811,7 @@ GameObject:
   - component: {fileID: 1125848266}
   - component: {fileID: 1125848265}
   - component: {fileID: 1125848267}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_86 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9898,7 +10001,7 @@ GameObject:
   - component: {fileID: 1140888107}
   - component: {fileID: 1140888106}
   - component: {fileID: 1140888105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10084,7 +10187,7 @@ GameObject:
   - component: {fileID: 1156744712}
   - component: {fileID: 1156744713}
   - component: {fileID: 1156744714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10365,7 +10468,7 @@ GameObject:
   - component: {fileID: 1179259028}
   - component: {fileID: 1179259030}
   - component: {fileID: 1179259029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10635,7 +10738,7 @@ GameObject:
   - component: {fileID: 1195276106}
   - component: {fileID: 1195276105}
   - component: {fileID: 1195276107}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10824,7 +10927,7 @@ GameObject:
   - component: {fileID: 1224271077}
   - component: {fileID: 1224271076}
   - component: {fileID: 1224271078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_44 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11256,7 +11359,7 @@ GameObject:
   - component: {fileID: 1268310465}
   - component: {fileID: 1268310464}
   - component: {fileID: 1268310466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11925,7 +12028,7 @@ GameObject:
   - component: {fileID: 1336600005}
   - component: {fileID: 1336600006}
   - component: {fileID: 1336600007}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11940,8 +12043,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336600004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.376131, y: 0.55, z: 3.6434567}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.376131, y: 0.5451, z: 3.6434567}
+  m_LocalScale: {x: 1, y: 0.9900564, z: 1}
   m_Children: []
   m_Father: {fileID: 313425065}
   m_RootOrder: 4
@@ -12085,6 +12188,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.6666667
       objectReference: {fileID: 0}
+    - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1589456815
+      objectReference: {fileID: 0}
+    - target: {fileID: 212801014522150656, guid: 573f2969d3071a44fa563048fb3422d8,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573f2969d3071a44fa563048fb3422d8, type: 3}
 --- !u!1 &1351391194
@@ -12098,7 +12211,7 @@ GameObject:
   - component: {fileID: 1351391196}
   - component: {fileID: 1351391195}
   - component: {fileID: 1351391197}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12287,7 +12400,7 @@ GameObject:
   - component: {fileID: 1364269695}
   - component: {fileID: 1364269694}
   - component: {fileID: 1364269696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_116 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12395,7 +12508,7 @@ GameObject:
   - component: {fileID: 1384133514}
   - component: {fileID: 1384133513}
   - component: {fileID: 1384133515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12503,7 +12616,7 @@ GameObject:
   - component: {fileID: 1407345414}
   - component: {fileID: 1407345413}
   - component: {fileID: 1407345415}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12653,8 +12766,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1589456815
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae3918a914038694d852d0bb81f62473, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13069,7 +13182,7 @@ GameObject:
   - component: {fileID: 1445677766}
   - component: {fileID: 1445677765}
   - component: {fileID: 1445677767}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13420,7 +13533,7 @@ GameObject:
   - component: {fileID: 1469101965}
   - component: {fileID: 1469101966}
   - component: {fileID: 1469101967}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13752,9 +13865,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501314037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.63, y: 2.68, z: 0}
+  m_LocalPosition: {x: 7.55, y: 2.56, z: 0}
   m_LocalScale: {x: 3.2375064, y: 3.2375064, z: 3.2375064}
-  m_Children: []
+  m_Children:
+  - {fileID: 205190717}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13770,12 +13884,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74edf4307dc4743bba7ea35b3f639e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
   gameRestartDelay: 2
   projectilePrefab: {fileID: 0}
   projectileSpeed: 40
-  fallMultiplier: 2.5
-  lowJumpMultiplier: 2
+  checkRadius: 0.3
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
+  feetPosition: {fileID: 205190717}
+  jumpForce: 7
 --- !u!50 &1501314041
 Rigidbody2D:
   serializedVersion: 4
@@ -13796,7 +13914,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1501314042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13810,18 +13928,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.015, y: -0.025}
+  m_Offset: {x: -0.015, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29, y: 0.49}
+    oldSize: {x: 0.33, y: 0.34}
     newSize: {x: 0.29, y: 0.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23, y: 0.38}
+  m_Size: {x: 0.24, y: 0.36}
   m_EdgeRadius: 0
 --- !u!1 &1505007085
 GameObject:
@@ -13963,8 +14081,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2001218363
-  m_SortingLayer: -1
+  m_SortingLayerID: -1589456815
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae3918a914038694d852d0bb81f62473, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14353,7 +14471,7 @@ GameObject:
   - component: {fileID: 1604593243}
   - component: {fileID: 1604593242}
   - component: {fileID: 1604593244}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14704,7 +14822,7 @@ GameObject:
   - component: {fileID: 1643570458}
   - component: {fileID: 1643570460}
   - component: {fileID: 1643570459}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_123 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14812,7 +14930,7 @@ GameObject:
   - component: {fileID: 1646742067}
   - component: {fileID: 1646742066}
   - component: {fileID: 1646742068}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15163,7 +15281,7 @@ GameObject:
   - component: {fileID: 1688222520}
   - component: {fileID: 1688222521}
   - component: {fileID: 1688222522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15271,7 +15389,7 @@ GameObject:
   - component: {fileID: 1691213286}
   - component: {fileID: 1691213287}
   - component: {fileID: 1691213288}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15488,7 +15606,7 @@ GameObject:
   - component: {fileID: 1718930245}
   - component: {fileID: 1718930244}
   - component: {fileID: 1718930243}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16040,8 +16158,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2001218363
-  m_SortingLayer: -1
+  m_SortingLayerID: -1589456815
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae3918a914038694d852d0bb81f62473, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16160,7 +16278,7 @@ GameObject:
   - component: {fileID: 1778091751}
   - component: {fileID: 1778091750}
   - component: {fileID: 1778091752}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16343,7 +16461,7 @@ GameObject:
   - component: {fileID: 1788453768}
   - component: {fileID: 1788453767}
   - component: {fileID: 1788453769}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16451,7 +16569,7 @@ GameObject:
   - component: {fileID: 1792426713}
   - component: {fileID: 1792426712}
   - component: {fileID: 1792426714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_46 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16559,7 +16677,7 @@ GameObject:
   - component: {fileID: 1795954728}
   - component: {fileID: 1795954730}
   - component: {fileID: 1795954729}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16748,7 +16866,7 @@ GameObject:
   - component: {fileID: 1832924444}
   - component: {fileID: 1832924443}
   - component: {fileID: 1832924445}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16856,7 +16974,7 @@ GameObject:
   - component: {fileID: 1835935006}
   - component: {fileID: 1835935005}
   - component: {fileID: 1835935007}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16964,7 +17082,7 @@ GameObject:
   - component: {fileID: 1840984971}
   - component: {fileID: 1840984972}
   - component: {fileID: 1840984973}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16979,8 +17097,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840984970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.376131, y: 0.54, z: 3.6434567}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.376131, y: 0.542, z: 3.6434567}
+  m_LocalScale: {x: 1, y: 1.0041, z: 1}
   m_Children: []
   m_Father: {fileID: 313425065}
   m_RootOrder: 0
@@ -17672,7 +17790,7 @@ GameObject:
   - component: {fileID: 1904358104}
   - component: {fileID: 1904358103}
   - component: {fileID: 1904358105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17780,7 +17898,7 @@ GameObject:
   - component: {fileID: 1904519130}
   - component: {fileID: 1904519129}
   - component: {fileID: 1904519131}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17996,7 +18114,7 @@ GameObject:
   - component: {fileID: 1919439804}
   - component: {fileID: 1919439803}
   - component: {fileID: 1919439805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_48 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18110,7 +18228,7 @@ GameObject:
   - component: {fileID: 1926413023}
   - component: {fileID: 1926413022}
   - component: {fileID: 1926413024}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18299,7 +18417,7 @@ GameObject:
   - component: {fileID: 1982034600}
   - component: {fileID: 1982034601}
   - component: {fileID: 1982034602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18619,7 +18737,7 @@ GameObject:
   - component: {fileID: 2047637197}
   - component: {fileID: 2047637199}
   - component: {fileID: 2047637198}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_123 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19017,7 +19135,7 @@ GameObject:
   - component: {fileID: 2098093733}
   - component: {fileID: 2098093732}
   - component: {fileID: 2098093734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19177,6 +19295,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.6666667
       objectReference: {fileID: 0}
+    - target: {fileID: 212544763138770930, guid: b8b3c490f21c87345a2f86d0e594c439,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1589456815
+      objectReference: {fileID: 0}
+    - target: {fileID: 212544763138770930, guid: b8b3c490f21c87345a2f86d0e594c439,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b3c490f21c87345a2f86d0e594c439, type: 3}
 --- !u!1 &2113290619
@@ -19190,7 +19318,7 @@ GameObject:
   - component: {fileID: 2113290620}
   - component: {fileID: 2113290621}
   - component: {fileID: 2113290622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_29 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19298,7 +19426,7 @@ GameObject:
   - component: {fileID: 2131845916}
   - component: {fileID: 2131845917}
   - component: {fileID: 2131845918}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nature_environment_01_45 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

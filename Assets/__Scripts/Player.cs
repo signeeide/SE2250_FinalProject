@@ -11,8 +11,11 @@ public class Player : MonoBehaviour
     public float projectileSpeed = 40;
 
     //jump
-    public float fallMultiplier = 2.5f;
-    public float lowJumpMultiplier = 2f;
+    private bool isGrounded;
+    public float checkRadius;
+    public LayerMask whatIsGround;
+    public Transform feetPosition;
+    public float jumpForce;
 
     // Use this for initialization
     void Awake()
@@ -32,26 +35,20 @@ public class Player : MonoBehaviour
     {
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
+        rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
 
-        //Store the current vertical input in the float moveVertical.
-        float moveVertical = Input.GetAxis("Vertical");
+        isGrounded = Physics2D.OverlapCircle(feetPosition.position, checkRadius, whatIsGround);
 
-        //Use the two store floats to create a new Vector2 variable movement.
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        Debug.Log(isGrounded);
 
-        if (rb2d.velocity.y < 0)
-            rb2d.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space)) {
+            rb2d.velocity = Vector2.up * jumpForce;
+        }
 
-        else if (rb2d.velocity.y > 0 && !Input.GetButton("Jump"))
-            rb2d.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-
-        //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
-        rb2d.AddForce(movement * speed);
-
-        //Allow to fire balls
+        /*Allow to fire balls
         if (Input.GetKeyDown(KeyCode.Space)) {
             TempFire();
-        }
+        }*/
     }
 
     public void OnCollisionEnter(Collision other)
@@ -59,7 +56,15 @@ public class Player : MonoBehaviour
         Debug.Log(other.gameObject.name);
         Debug.Log("Collision detected!");
     }
+    /*
+    static void jump(Player p)
+    {
+        if (p.rb2d.velocity.y < 0)
+            p.rb2d.velocity += Vector2.up * Physics2D.gravity.y * (p.fallMultiplier - 1) * Time.deltaTime;
 
+        else if (p.rb2d.velocity.y > 0 && !Input.GetKeyUp(KeyCode.Space))
+            p.rb2d.velocity += Vector2.up * Physics2D.gravity.y * (p.lowJumpMultiplier - 1) * Time.deltaTime;
+    }*/
 
     void TempFire()
     {
