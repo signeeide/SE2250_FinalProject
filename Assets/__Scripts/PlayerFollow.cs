@@ -9,7 +9,7 @@ public class PlayerFollow : MonoBehaviour
     private BoundsCheck bndCheck;
 
     [Header("Set in Inspector")]
-    public float radius = 0f;
+    public float radius;
     public bool keepOnScreen = true;
     public bool isOnScreen = true;
 
@@ -40,7 +40,7 @@ public class PlayerFollow : MonoBehaviour
             Debug.Log(bndCheck.offRight);
         }
 
-        Debug.Log("X : "+transform.position.x);
+        Debug.Log("X : " + transform.position.x);
         Debug.Log("Y : " + transform.position.y);
     }
 

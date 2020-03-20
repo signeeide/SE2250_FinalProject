@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
             rb2d.velocity = Vector2.up * jumpForce;
         }
 
-        /*Allow to fire balls
+        /*Allow to fire light projectiles
         if (Input.GetKeyDown(KeyCode.Space)) {
             TempFire();
         }*/
@@ -56,15 +56,6 @@ public class Player : MonoBehaviour
         Debug.Log(other.gameObject.name);
         Debug.Log("Collision detected!");
     }
-    /*
-    static void jump(Player p)
-    {
-        if (p.rb2d.velocity.y < 0)
-            p.rb2d.velocity += Vector2.up * Physics2D.gravity.y * (p.fallMultiplier - 1) * Time.deltaTime;
-
-        else if (p.rb2d.velocity.y > 0 && !Input.GetKeyUp(KeyCode.Space))
-            p.rb2d.velocity += Vector2.up * Physics2D.gravity.y * (p.lowJumpMultiplier - 1) * Time.deltaTime;
-    }*/
 
     void TempFire()
     {
