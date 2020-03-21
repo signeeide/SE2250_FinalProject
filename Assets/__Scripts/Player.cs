@@ -69,11 +69,11 @@ public class Player : MonoBehaviour
     {
         slice = Instantiate<GameObject>(slicePrefab);
         Vector3 temPos = transform.position;
-        temPos.x += 0.4f;
+        temPos.x += 0.5f;
         slice.transform.position = temPos;
 
         //Wait before destroying the slice
-        Invoke("DestroySlice", 0.8f);
+        Invoke("DestroySlice", 0.5f);
     }
 
 
