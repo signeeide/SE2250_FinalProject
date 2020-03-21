@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -57,7 +58,20 @@ public class Player : MonoBehaviour
         }
     }
 
-    void TempFire()
+    public void DelayedStartPosition(float delay)
+    {
+        Invoke("StartPosition", delay);
+    }
+
+    private void StartPosition()
+    {
+        Vector3 temPos = transform.position;
+        temPos.x = 1.85f;
+        temPos.y = 1.61f;
+        transform.position = temPos;
+    }
+
+    private void TempFire()
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefab);
         projGO.transform.position = transform.position;
@@ -65,7 +79,7 @@ public class Player : MonoBehaviour
         rigidB.velocity = Vector3.right * projectileSpeed;
     }
 
-    void Slice()
+    private void Slice()
     {
         slice = Instantiate<GameObject>(slicePrefab);
         Vector3 temPos = transform.position;
@@ -76,9 +90,9 @@ public class Player : MonoBehaviour
         Invoke("DestroySlice", 0.5f);
     }
 
-
-    void DestroySlice()
+    private void DestroySlice()
     {
         Destroy(slice);
     }
+
 }

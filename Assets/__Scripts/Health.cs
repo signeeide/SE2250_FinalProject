@@ -48,7 +48,8 @@ public class Health : MonoBehaviour
         }
         if (health < 1)
         {
-            Destroy(this.gameObject);
+            Player.S.DelayedStartPosition(1f);
+            Main.S.DelayedRestart(1f);
             Debug.Log("Player eliminated");
         }
     }
