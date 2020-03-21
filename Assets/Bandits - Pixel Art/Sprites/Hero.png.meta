@@ -1,115 +1,115 @@
 fileFormatVersion: 2
-guid: f2ed27d6c1c3ccc48959bcca269d88f0
+guid: fba437133d8ce4a4297b35370aba8cf4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: LightBandit_0
+      213: -6146700129834819302
+    second: Hero_0
   - first:
-      213: 21300002
-    second: LightBandit_1
+      213: 9138555137054584332
+    second: Hero_1
   - first:
-      213: 21300004
-    second: LightBandit_2
+      213: 2632276121321243838
+    second: Hero_2
   - first:
-      213: 21300006
-    second: LightBandit_3
+      213: 2805043176163793281
+    second: Hero_3
   - first:
-      213: 21300008
-    second: LightBandit_4
+      213: 3530003579022248241
+    second: Hero_4
   - first:
-      213: 21300010
-    second: LightBandit_5
+      213: 8960899199633546546
+    second: Hero_5
   - first:
-      213: 21300012
-    second: LightBandit_6
+      213: 1635744749237841209
+    second: Hero_6
   - first:
-      213: 21300014
-    second: LightBandit_7
+      213: 4360131077223874234
+    second: Hero_7
   - first:
-      213: 21300016
-    second: LightBandit_8
+      213: -3687602496079464652
+    second: Hero_8
   - first:
-      213: 21300018
-    second: LightBandit_9
+      213: -2142791582941521445
+    second: Hero_9
   - first:
-      213: 21300020
-    second: LightBandit_10
+      213: 7018385267601350384
+    second: Hero_10
   - first:
-      213: 21300022
-    second: LightBandit_11
+      213: 1917320343087086255
+    second: Hero_11
   - first:
-      213: 21300024
-    second: LightBandit_12
+      213: -6089189685315772502
+    second: Hero_12
   - first:
-      213: 21300026
-    second: LightBandit_13
+      213: -314675951565558864
+    second: Hero_13
   - first:
-      213: 21300028
-    second: LightBandit_14
+      213: -5800700536808373965
+    second: Hero_14
   - first:
-      213: 21300030
-    second: LightBandit_15
+      213: -3983798310479679007
+    second: Hero_15
   - first:
-      213: 21300032
-    second: LightBandit_16
+      213: -9014295782854626241
+    second: Hero_16
   - first:
-      213: 21300034
-    second: LightBandit_17
+      213: -7067365077701195739
+    second: Hero_17
   - first:
-      213: 21300036
-    second: LightBandit_18
+      213: -5991450931309886240
+    second: Hero_18
   - first:
-      213: 21300038
-    second: LightBandit_19
+      213: -6060876265418842428
+    second: Hero_19
   - first:
-      213: 21300040
-    second: LightBandit_20
+      213: -2907588548364164451
+    second: Hero_20
   - first:
-      213: 21300042
-    second: LightBandit_21
+      213: -354585906375729080
+    second: Hero_21
   - first:
-      213: 21300044
-    second: LightBandit_22
+      213: -2424968931422420723
+    second: Hero_22
   - first:
-      213: 21300046
-    second: LightBandit_23
+      213: 552900063559834478
+    second: Hero_23
   - first:
-      213: 21300048
-    second: LightBandit_24
+      213: 2294949204960916495
+    second: Hero_24
   - first:
-      213: 21300050
-    second: LightBandit_25
+      213: 2776209665653643088
+    second: Hero_25
   - first:
-      213: 21300052
-    second: LightBandit_26
+      213: -1910980653693743081
+    second: Hero_26
   - first:
-      213: 21300054
-    second: LightBandit_27
+      213: 2382439291522176088
+    second: Hero_27
   - first:
-      213: 21300056
-    second: LightBandit_28
+      213: 7797690872389585371
+    second: Hero_28
   - first:
-      213: 21300058
-    second: LightBandit_29
+      213: 847356742481223136
+    second: Hero_29
   - first:
-      213: 21300060
-    second: LightBandit_30
+      213: 8078218461702098748
+    second: Hero_30
   - first:
-      213: 21300062
-    second: LightBandit_31
+      213: -1149029613571509917
+    second: Hero_31
   - first:
-      213: 21300064
-    second: LightBandit_32
+      213: -2795223897453537613
+    second: Hero_32
   - first:
-      213: 21300066
-    second: LightBandit_33
+      213: 3880623526851715865
+    second: Hero_33
   - first:
-      213: 21300068
-    second: LightBandit_34
+      213: -7045202169978999449
+    second: Hero_34
   - first:
-      213: 21300070
-    second: LightBandit_35
+      213: 55406406312410805
+    second: Hero_35
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -177,7 +177,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -189,762 +189,741 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LightBandit_0
+      name: Hero_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
+        x: 25
+        y: 221
         width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3207d9ed7bab70542b69e740d230371a
-      internalID: 21300000
+      spriteID: a11295c6cc882baa0800000000000000
+      internalID: -6146700129834819302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_1
+      name: Hero_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 142
+        y: 210
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d8834466f4a9854f8a3af139a5e29ec
-      internalID: 21300002
+      spriteID: c0ea570aa7ba2de70800000000000000
+      internalID: 9138555137054584332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_2
+      name: Hero_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 299
+        y: 221
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b12f037d6e86c846b569e0d4e14fa5d
-      internalID: 21300004
+      spriteID: eb4881a9f29b78420800000000000000
+      internalID: 2632276121321243838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_3
+      name: Hero_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 368
+        y: 229
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13cca6b6d0b75e44590892ebf752881a
-      internalID: 21300006
+      spriteID: 18950ee28e38de620800000000000000
+      internalID: 2805043176163793281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_4
+      name: Hero_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 416
+        y: 216
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 037f21e10958b0c47804bbd66cc4454e
-      internalID: 21300008
+      spriteID: 1398a776d871df030800000000000000
+      internalID: 3530003579022248241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_5
+      name: Hero_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 460
+        y: 215
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f0f565e0ea9ec940a5c60706d5cb987
-      internalID: 21300010
+      spriteID: 23d5d3e58528b5c70800000000000000
+      internalID: 8960899199633546546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_6
+      name: Hero_6
       rect:
         serializedVersion: 2
-        x: 288
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 22
+        y: 169
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 561f2501775b8ae49b3164655004098a
-      internalID: 21300012
+      spriteID: 93d2881de2553b610800000000000000
+      internalID: 1635744749237841209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_7
+      name: Hero_7
       rect:
         serializedVersion: 2
-        x: 336
-        y: 208
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 142
+        y: 162
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30002d815c10f3846aea127005619dd8
-      internalID: 21300014
+      spriteID: abef1102d1c428c30800000000000000
+      internalID: 4360131077223874234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_8
+      name: Hero_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 187
+        y: 162
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb36a84dc8a89d4f90830e68bb66926
-      internalID: 21300016
+      spriteID: 437f65c411103dcc0800000000000000
+      internalID: -3687602496079464652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_9
+      name: Hero_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 236
+        y: 164
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e802ac24ceba7c1449b01346c49ac0f0
-      internalID: 21300018
+      spriteID: bd9d21788664342e0800000000000000
+      internalID: -2142791582941521445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_10
+      name: Hero_10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 283
+        y: 162
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cce24e5606c3c0f498b82d98d7f79e85
-      internalID: 21300020
+      spriteID: 0fe96344730566160800000000000000
+      internalID: 7018385267601350384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_11
+      name: Hero_11
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 333
+        y: 161
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e121a5a0d66f3c4a9697de9454e5b35
-      internalID: 21300022
+      spriteID: faaf55291b0bb9a10800000000000000
+      internalID: 1917320343087086255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_12
+      name: Hero_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 378
+        y: 162
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e499fe70bda184c9f4e0d783e99372
-      internalID: 21300024
+      spriteID: aafd7cc3e3ade7ba0800000000000000
+      internalID: -6089189685315772502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_13
+      name: Hero_13
       rect:
         serializedVersion: 2
-        x: 240
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 426
+        y: 163
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e768ed9fe581c41bfa8ff5dc26cc67
-      internalID: 21300026
+      spriteID: 0bba397a3eb02abf0800000000000000
+      internalID: -314675951565558864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_14
+      name: Hero_14
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 474
+        y: 162
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e06e626f88fec3e48bdf1f6ccd4b115b
-      internalID: 21300028
+      spriteID: 3318e1f5895cf7fa0800000000000000
+      internalID: -5800700536808373965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_15
+      name: Hero_15
       rect:
         serializedVersion: 2
-        x: 336
-        y: 160
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 27
+        y: 121
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86fd55014df1da047a6ec4a2a4bf8032
-      internalID: 21300030
+      spriteID: 1e1be0f2b84b6b8c0800000000000000
+      internalID: -3983798310479679007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_16
+      name: Hero_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 138
+        y: 114
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f545c23c1b8192a47b1e02729c1941e0
-      internalID: 21300032
+      spriteID: f34f5aaceb9c6e280800000000000000
+      internalID: -9014295782854626241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_17
+      name: Hero_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 186
+        y: 114
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a46f8c95050d6c740a3e9432c22401ad
-      internalID: 21300034
+      spriteID: 5288e9508ecabed90800000000000000
+      internalID: -7067365077701195739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_18
+      name: Hero_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 234
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83268acce93746d4495e27a75d8d3de5
-      internalID: 21300036
+      spriteID: 0e4471e3f171adca0800000000000000
+      internalID: -5991450931309886240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_19
+      name: Hero_19
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 282
+        y: 114
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8193cb2576dfe1647844c94332025cf2
-      internalID: 21300038
+      spriteID: 4ce1d14062173eba0800000000000000
+      internalID: -6060876265418842428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_20
+      name: Hero_20
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 330
+        y: 114
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 284c3080ffaf99e42bd012a1bd7e1927
-      internalID: 21300040
+      spriteID: d92a2cdce9b26a7d0800000000000000
+      internalID: -2907588548364164451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_21
+      name: Hero_21
       rect:
         serializedVersion: 2
-        x: 240
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 378
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5074b8ebb3a70634db9eb3b184e25b0c
-      internalID: 21300042
+      spriteID: 8406d103ff1441bf0800000000000000
+      internalID: -354585906375729080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_22
+      name: Hero_22
       rect:
         serializedVersion: 2
-        x: 288
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 426
+        y: 114
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 018030f3b32ba6e47b504ca34bee16da
-      internalID: 21300044
+      spriteID: d01453bda97c85ed0800000000000000
+      internalID: -2424968931422420723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_23
+      name: Hero_23
       rect:
         serializedVersion: 2
-        x: 336
-        y: 112
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 31
+        y: 71
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cb33a109fdfe7e41a18bf42243751da
-      internalID: 21300046
+      spriteID: e6b56ccadab4ca700800000000000000
+      internalID: 552900063559834478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_24
+      name: Hero_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 140
+        y: 66
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f259c526ef6004d9ded85d01928903
-      internalID: 21300048
+      spriteID: f04b24b842c49df10800000000000000
+      internalID: 2294949204960916495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_25
+      name: Hero_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 187
+        y: 66
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf226e4cdb67fa04094983df1ceb7ab3
-      internalID: 21300050
+      spriteID: 0579a4f5bf3178620800000000000000
+      internalID: 2776209665653643088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_26
+      name: Hero_26
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 228
+        y: 66
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a0a8b150af9ed4b88b9419c524dbad
-      internalID: 21300052
+      spriteID: 710d0f36835da75e0800000000000000
+      internalID: -1910980653693743081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_27
+      name: Hero_27
       rect:
         serializedVersion: 2
-        x: 144
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 279
+        y: 66
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0963f95d9dc9dd649b49028270ce9f56
-      internalID: 21300054
+      spriteID: 854dc16b9ef101120800000000000000
+      internalID: 2382439291522176088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_28
+      name: Hero_28
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 367
+        y: 71
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6139f968672952f48b4aa7ef8c52b12a
-      internalID: 21300056
+      spriteID: bd94615d886f63c60800000000000000
+      internalID: 7797690872389585371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_29
+      name: Hero_29
       rect:
         serializedVersion: 2
-        x: 240
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 427
+        y: 65
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94ed378a2cb256458310f424a792cba
-      internalID: 21300058
+      spriteID: 0ed10a1c77a62cb00800000000000000
+      internalID: 847356742481223136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_30
+      name: Hero_30
       rect:
         serializedVersion: 2
-        x: 288
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 475
+        y: 65
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b19e7a2f2c9fa3d4cb0ef26b8f0a3453
-      internalID: 21300060
+      spriteID: c3f81c304e89b1070800000000000000
+      internalID: 8078218461702098748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_31
+      name: Hero_32
       rect:
         serializedVersion: 2
-        x: 336
-        y: 64
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 29
+        y: 19
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbdd102dd755af64abab41754030d9a9
-      internalID: 21300062
+      spriteID: 3b6599cccae5539d0800000000000000
+      internalID: -2795223897453537613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_32
+      name: Hero_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 142
+        y: 13
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8075e56ad508fa488d054461b0f4987
-      internalID: 21300064
+      spriteID: 9132509898ebad530800000000000000
+      internalID: 3880623526851715865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_33
+      name: Hero_34
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 191
+        y: 13
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c8e75b0867daa40abacca45437d1cf
-      internalID: 21300066
+      spriteID: 76d279714f96a3e90800000000000000
+      internalID: -7045202169978999449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_34
+      name: Hero_35
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 242
+        y: 13
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4318b5f0d3d7ae64baca9c7d5b92137d
-      internalID: 21300068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LightBandit_35
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 16
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a1ee1a3d2a85a64fb449ca4c5d50459
-      internalID: 21300070
+      spriteID: 5be388e35d7d4c000800000000000000
+      internalID: 55406406312410805
       vertices: []
       indices: 
       edges: []
@@ -952,7 +931,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7d11182b063dd464e84a53d686a40f8f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
