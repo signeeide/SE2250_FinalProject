@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bee
   - ProjectilePlayer
+  - SlicePlayer
   layers:
   - Default
   - TransparentFX
