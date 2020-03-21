@@ -24,7 +24,7 @@ public class Main : MonoBehaviour
     public void Restart()
     {
         //Reload scene_0 to restart the game
-        SceneManager.LoadScene("Scene0");
+        //SceneManager.LoadScene("Scene0");
     }
 }
 

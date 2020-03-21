@@ -39,16 +39,14 @@ public class Player : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, checkRadius, whatIsGround);
 
-        Debug.Log(isGrounded);
-
         if (isGrounded == true && Input.GetKeyDown(KeyCode.Space)) {
             rb2d.velocity = Vector2.up * jumpForce;
         }
 
-        /*Allow to fire light projectiles
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        // Allow to fire light projectiles
+        if (Input.GetKeyDown(KeyCode.Z)) {
             TempFire();
-        }*/
+        }
     }
 
     public void OnCollisionEnter(Collision other)
@@ -61,7 +59,7 @@ public class Player : MonoBehaviour
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefab);
         projGO.transform.position = transform.position;
-        Rigidbody rigidB = projGO.GetComponent<Rigidbody>();
-        rigidB.velocity = Vector3.up * projectileSpeed;
+        Rigidbody2D rigidB = projGO.GetComponent<Rigidbody2D>();
+        rigidB.velocity = Vector3.right * projectileSpeed;
     }
 }
