@@ -30,13 +30,10 @@ public class EnemyBee : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D other)
     {
         string tag = other.gameObject.tag;
-        Debug.Log(tag);
-        Debug.Log(health);
 
         if (tag.Equals("ProjectilePlayer") || tag.Equals("SlicePlayer"))
         {
             health -= 30;
-            Debug.Log(health);
         }
         if (health <= 0) Destroy(this.gameObject);
     }

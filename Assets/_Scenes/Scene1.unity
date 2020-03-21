@@ -4588,6 +4588,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4618,13 +4619,13 @@ MonoBehaviour:
   target: {fileID: 1501314039}
   smoothTime: 0.15
   YMaxEnabled: 1
-  YMaxValue: 25
+  YMaxValue: 6
   YMinEnabled: 1
   YMinValue: 3.5
   XMaxEnabled: 1
-  XMaxValue: 58.5
+  XMaxValue: 58
   XMinEnabled: 1
-  XMinValue: 5.5
+  XMinValue: 5.75
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4682,6 +4683,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bda67af8a8d24d67be96fe02d0e130e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabEnemies:
+  - {fileID: 3963884361279754712, guid: f38c8193b31064b30a23efa41c013610, type: 3}
+  enemySpawnPerSecond: 0.3
+  numberOfEnemies: 5
 --- !u!4 &540843945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4186159043700184, guid: 573f2969d3071a44fa563048fb3422d8,
@@ -19511,80 +19528,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1001 &3963884361425574755
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 49.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.6886147
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754659, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754712, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_Name
-      value: Bee
-      objectReference: {fileID: 0}
-    - target: {fileID: 3963884361279754712, guid: f38c8193b31064b30a23efa41c013610,
-        type: 3}
-      propertyPath: m_TagString
-      value: Bee
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f38c8193b31064b30a23efa41c013610, type: 3}
 --- !u!1001 &8986716788176454710
 PrefabInstance:
   m_ObjectHideFlags: 0

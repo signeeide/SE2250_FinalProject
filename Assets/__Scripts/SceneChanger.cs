@@ -9,7 +9,7 @@ public class SceneManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
+            //SceneManager.LoadScene(nextScene);
         }
     }
 }

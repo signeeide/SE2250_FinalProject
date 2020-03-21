@@ -3,12 +3,13 @@
 public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
-    public float speed;            
+    public float speed;
+    public float health = 200f;
     private Rigidbody2D rb2d;
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
-    public float projectileSpeed = 40;
+    public float projectileSpeed = 20f;
 
     //jump
     private bool isGrounded;
@@ -51,8 +52,8 @@ public class Player : MonoBehaviour
 
     public void OnCollisionEnter(Collision other)
     {
-        Debug.Log(other.gameObject.name);
-        Debug.Log("Collision detected!");
+        if (other.gameObject.tag.Equals("Bee"))
+            health -= 50f;
     }
 
     void TempFire()
