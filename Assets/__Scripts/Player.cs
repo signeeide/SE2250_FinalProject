@@ -50,12 +50,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag.Equals("Bee"))
-            health -= 50f;
-    }
-
     void TempFire()
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefab);
