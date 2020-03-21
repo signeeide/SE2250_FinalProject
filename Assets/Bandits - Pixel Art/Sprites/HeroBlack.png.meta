@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 9c0ca8a377718fd4aaedc13cc531f821
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5214355931427424831
+    second: HeroBlack_0
+  - first:
+      213: -6932199218497053267
+    second: HeroBlack_1
+  - first:
+      213: -3870823245382950150
+    second: HeroBlack_2
+  - first:
+      213: 1109143981751287686
+    second: HeroBlack_3
+  - first:
+      213: -2664874263759648044
+    second: HeroBlack_4
+  - first:
+      213: -8431521219151244289
+    second: HeroBlack_5
+  - first:
+      213: -8237475054899167768
+    second: HeroBlack_6
+  - first:
+      213: -4684478571167492218
+    second: HeroBlack_7
+  - first:
+      213: -6157347166404236486
+    second: HeroBlack_8
+  - first:
+      213: -9165364396587693152
+    second: HeroBlack_9
+  - first:
+      213: -1263028331121048220
+    second: HeroBlack_10
+  - first:
+      213: -7985852540639411520
+    second: HeroBlack_11
+  - first:
+      213: 7491865993294581685
+    second: HeroBlack_12
+  - first:
+      213: -7906323844798424323
+    second: HeroBlack_13
+  - first:
+      213: -7560780991374236652
+    second: HeroBlack_14
+  - first:
+      213: 234742252175592106
+    second: HeroBlack_15
+  - first:
+      213: 3165491453738568617
+    second: HeroBlack_16
+  - first:
+      213: 4466316947222677500
+    second: HeroBlack_17
+  - first:
+      213: -418145219519403033
+    second: HeroBlack_18
+  - first:
+      213: -3632900083102403998
+    second: HeroBlack_19
+  - first:
+      213: -762773433194421309
+    second: HeroBlack_20
+  - first:
+      213: -4395740768916602117
+    second: HeroBlack_21
+  - first:
+      213: 7141597955102413411
+    second: HeroBlack_22
+  - first:
+      213: -1097446648949700762
+    second: HeroBlack_23
+  - first:
+      213: 9064163044794892662
+    second: HeroBlack_24
+  - first:
+      213: 1304904580849354173
+    second: HeroBlack_25
+  - first:
+      213: 3831439468415583107
+    second: HeroBlack_26
+  - first:
+      213: -6152783286617483173
+    second: HeroBlack_27
+  - first:
+      213: -322483536183418502
+    second: HeroBlack_28
+  - first:
+      213: -4333543110391697651
+    second: HeroBlack_29
+  - first:
+      213: -5296912109822187314
+    second: HeroBlack_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroBlack_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 221
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ace21c71d1d5840800000000000000
+      internalID: 5214355931427424831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 210
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1e350a81ebcf90800000000000000
+      internalID: -6932199218497053267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 169
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ef9e44c2184ac0800000000000000
+      internalID: -3870823245382950150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 162
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3c0d2398746f00800000000000000
+      internalID: 1109143981751287686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 162
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8689e9f6740bd0800000000000000
+      internalID: -2664874263759648044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 164
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff352509f183dfa80800000000000000
+      internalID: -8431521219151244289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 162
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edf792e41c9ead80800000000000000
+      internalID: -8237475054899167768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 161
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687d1a71f836dfeb0800000000000000
+      internalID: -4684478571167492218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 162
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba7bb0065bc8aa0800000000000000
+      internalID: -6157347166404236486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 163
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc06834a51ec080800000000000000
+      internalID: -9165364396587693152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 162
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4658646bc62d87ee0800000000000000
+      internalID: -1263028331121048220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 121
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c28986dc6d8c2190800000000000000
+      internalID: -7985852540639411520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 114
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf07236d6478f760800000000000000
+      internalID: 7491865993294581685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfad6974a58174290800000000000000
+      internalID: -7906323844798424323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414ec904fb5b21790800000000000000
+      internalID: -7560780991374236652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 114
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa83baa5d8f14300800000000000000
+      internalID: 234742252175592106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab4f97a4b51eeb20800000000000000
+      internalID: 3165491453738568617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 114
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7c385999b8bfd30800000000000000
+      internalID: 4466316947222677500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 114
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba4066323723af0800000000000000
+      internalID: -418145219519403033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 71
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b1325f98559dc0800000000000000
+      internalID: -3632900083102403998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 66
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c367569a951a65f0800000000000000
+      internalID: -762773433194421309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 66
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf206007f013ff2c0800000000000000
+      internalID: -4395740768916602117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_22
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 66
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362198a908d0c1360800000000000000
+      internalID: 7141597955102413411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 66
+        width: 51
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6670969561615c0f0800000000000000
+      internalID: -1097446648949700762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_24
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 71
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710937e3406acd70800000000000000
+      internalID: 9064163044794892662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_25
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 65
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db54e477dc3fb1210800000000000000
+      internalID: 1304904580849354173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 19
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58543d133cec9aa0800000000000000
+      internalID: -6152783286617483173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 13
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7120e3beee468bf0800000000000000
+      internalID: -322483536183418502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 13
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe24e40892cd3c0800000000000000
+      internalID: -4333543110391697651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroBlack_30
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8659710869d76b0800000000000000
+      internalID: -5296912109822187314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
