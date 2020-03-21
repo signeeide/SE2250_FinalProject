@@ -20069,6 +20069,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5345753916256496054, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: slicePrefab
+      value: 
+      objectReference: {fileID: 9025941540093123405, guid: 98ec4a9e0f6b54b48808bb2a337bb283,
+        type: 3}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name

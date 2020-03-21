@@ -3,12 +3,14 @@
 public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
+    static public GameObject slice = null;
     public float speed;
     public float health = 200f;
     private Rigidbody2D rb2d;
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
+    public GameObject slicePrefab;
     public float projectileSpeed = 20f;
 
     //jump
@@ -48,6 +50,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z)) {
             TempFire();
         }
+
+        if (Input.GetKeyDown(KeyCode.X) && slice == null)
+        {
+            Slice();
+        }
     }
 
     void TempFire()
@@ -56,5 +63,22 @@ public class Player : MonoBehaviour
         projGO.transform.position = transform.position;
         Rigidbody2D rigidB = projGO.GetComponent<Rigidbody2D>();
         rigidB.velocity = Vector3.right * projectileSpeed;
+    }
+
+    void Slice()
+    {
+        slice = Instantiate<GameObject>(slicePrefab);
+        Vector3 temPos = transform.position;
+        temPos.x += 0.4f;
+        slice.transform.position = temPos;
+
+        //Wait before destroying the slice
+        Invoke("DestroySlice", 0.8f);
+    }
+
+
+    void DestroySlice()
+    {
+        Destroy(slice);
     }
 }

@@ -29,10 +29,10 @@ public class EnemyBee : MonoBehaviour
     {
         string tag = other.gameObject.tag;
 
-        if (tag.Equals("ProjectilePlayer") || tag.Equals("SlicePlayer"))
-        {
-            health -= 30;
-        }
+        if (tag.Equals("ProjectilePlayer")) health -= 30;
+        
+        if (tag.Equals("SlicePlayer")) health -= 100;
+
         if (health <= 0) Destroy(this.gameObject);
     }
 }

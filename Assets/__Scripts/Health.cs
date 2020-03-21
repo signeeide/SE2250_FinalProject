@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour
@@ -44,7 +42,6 @@ public class Health : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log(other.gameObject.tag);
         if (other.gameObject.tag.Equals("Bee"))
         {
             health--;
