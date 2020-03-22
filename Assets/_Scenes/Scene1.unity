@@ -12438,6 +12438,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8532070794935636176, guid: c2bf871c2dc4d4650ab5151e1b4bfcec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532070794935636207, guid: c2bf871c2dc4d4650ab5151e1b4bfcec,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2bf871c2dc4d4650ab5151e1b4bfcec, type: 3}
 --- !u!1 &1295842829
