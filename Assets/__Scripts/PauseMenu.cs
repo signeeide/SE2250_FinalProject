@@ -33,7 +33,7 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Customize");
         string scene = "CustomizeScene";
-        Main.ChangeScene(scene); //Takes player back home.
+        Main.ChangeScene(scene); //Takes player to the customize scene.
 
     }
 

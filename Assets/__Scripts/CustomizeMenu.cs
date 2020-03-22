@@ -7,6 +7,8 @@ public class CustomizeMenu : MonoBehaviour
     public static bool isSpeed = false;
     public static bool isNormal = true;
 
+    public GameObject CustomizeMenuUI;
+
 
     public void AttackButton()
     {
