@@ -20331,6 +20331,11 @@ PrefabInstance:
       propertyPath: projectileSpeed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 5345753916642966716}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name
