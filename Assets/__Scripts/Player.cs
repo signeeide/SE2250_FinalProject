@@ -23,11 +23,6 @@ public class Player : MonoBehaviour
     public Transform feetPosition;
     public float jumpForce;
 
-    public UnityEvent OnLandEvent; //OnLanding() event
-
-    //[System.Serializable]
-    // Class for a UnityEvent
-    //public class BoolEvent : UnityEvent<bool> { }
 
     // Use this for initialization
     void Awake()
@@ -41,16 +36,11 @@ public class Player : MonoBehaviour
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
 
-        //Create new event if it's not already created
-        if (OnLandEvent == null) 
-            OnLandEvent = new UnityEvent();
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-        //bool wasGrounded = isGrounded;
-       // isGrounded = false;
 
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
@@ -85,16 +75,6 @@ public class Player : MonoBehaviour
         {
             Slice();
         }
-    }
-
-    public void OnLanding()
-    {
-        animator.SetBool("IsJumping", false);
-    }
-
-    public void DelayedStartPosition(float delay)
-    {
-        Invoke("StartPosition", delay);
     }
 
     private void StartPosition()
