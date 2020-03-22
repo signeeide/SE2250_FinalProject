@@ -3,7 +3,6 @@
 public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false; //This can now be accessed elsewhere. Like turning the volume down while the game is paused ect.
-
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
@@ -30,13 +29,23 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = true;
     }
 
-    public void LoadMenu()
+    public void Customize()
     {
-        Debug.Log("Loading menu..");
+        Debug.Log("Customize");
+        string scene = "CustomizeScene";
+        Main.ChangeScene(scene); //Takes player back home.
+
+    }
+
+    public void ReturnToCastle()
+    {
+        string scene = "Scene1";
+        Main.ChangeScene(scene); //Takes player back home.
     }
 
     public void QuitGame()
     {
         Debug.Log("Quitting game.");
+        Application.Quit(); //This will not show anything in the editor, so we'll keep the log for now to know that something happens.
     }
 }
