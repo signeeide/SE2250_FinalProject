@@ -1,6 +1,4 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -21,6 +19,7 @@ public class Player : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
     public Transform feetPosition;
+
     public float jumpForce;
 
 
@@ -35,13 +34,11 @@ public class Player : MonoBehaviour
         }
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
-
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
@@ -75,6 +72,11 @@ public class Player : MonoBehaviour
         {
             Slice();
         }
+    }
+
+    public void DelayedStartPosition(float delay)
+    {
+        Invoke("StartPosition", delay);
     }
 
     private void StartPosition()
