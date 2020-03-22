@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class Player : MonoBehaviour
     public Transform feetPosition;
     public float jumpForce;
 
+    public UnityEvent OnLandEvent; //OnLanding() event
+
+    //[System.Serializable]
+    // Class for a UnityEvent
+    //public class BoolEvent : UnityEvent<bool> { }
+
     // Use this for initialization
     void Awake()
     {
@@ -33,11 +40,18 @@ public class Player : MonoBehaviour
         }
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
+
+        //Create new event if it's not already created
+        if (OnLandEvent == null) 
+            OnLandEvent = new UnityEvent();
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
+        //bool wasGrounded = isGrounded;
+       // isGrounded = false;
+
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
@@ -47,9 +61,20 @@ public class Player : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, checkRadius, whatIsGround);
 
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space)) {
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+        {
             rb2d.velocity = Vector2.up * jumpForce;
+            // Triggers jump
+            animator.SetTrigger("Jump");
         }
+
+        // Handles in-air jump and landing animations
+        if (isGrounded == true)
+        {
+            animator.SetBool("IsJumping", false);
+        }
+        else animator.SetBool("IsJumping", true);
+
 
         // Allow to fire light projectiles
         if (Input.GetKeyDown(KeyCode.Z)) {
@@ -60,6 +85,11 @@ public class Player : MonoBehaviour
         {
             Slice();
         }
+    }
+
+    public void OnLanding()
+    {
+        animator.SetBool("IsJumping", false);
     }
 
     public void DelayedStartPosition(float delay)

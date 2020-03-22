@@ -20317,6 +20317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
       propertyPath: slicePrefab
       value: 
       objectReference: {fileID: 9025941540093123405, guid: 98ec4a9e0f6b54b48808bb2a337bb283,
@@ -20336,6 +20341,31 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 5345753916642966716}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5345753916642966718}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name
@@ -20458,3 +20488,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5345753916642966718 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5345753916642966714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345753916642966715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74edf4307dc4743bba7ea35b3f639e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
