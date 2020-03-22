@@ -48,7 +48,7 @@ public class Main : MonoBehaviour
         ChangeScene("Scene1");
     }
 
-    public void ChangeScene(string nextScene)
+    public static void ChangeScene(string nextScene)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
     }
