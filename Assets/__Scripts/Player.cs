@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float speed;
     public float health = 200f;
     private Rigidbody2D rb2d;
+    public Animator animator; // Animator
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
@@ -40,6 +41,9 @@ public class Player : MonoBehaviour
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
+
+        //Get 'speed' from animator, and set equal to moveHorizontal.
+        animator.SetFloat("Speed", Mathf.Abs(moveHorizontal));
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, checkRadius, whatIsGround);
 
