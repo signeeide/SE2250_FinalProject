@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Main : MonoBehaviour
 {
@@ -50,7 +51,7 @@ public class Main : MonoBehaviour
 
     public static void ChangeScene(string nextScene)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
+        SceneManager.LoadScene(nextScene);
     }
 }
 

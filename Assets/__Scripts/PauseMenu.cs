@@ -2,7 +2,7 @@
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool gameIsPaused = false; //This can now be accessed elsewhere. Like turning the volume down while the game is paused ect.
+    public static bool gameIsPaused = false; //This can be accessed elsewhere
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f; //At 1f time will runn as normal. Here its posible to add slow motion or something
+        Time.timeScale = 1f; //At 1f time will runn as normal
         gameIsPaused = false;
     }
 
@@ -46,6 +46,7 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Quitting game.");
-        Application.Quit(); //This will not show anything in the editor, so we'll keep the log for now to know that something happens.
+        Application.Quit();
+        //This will not show anything in the editor, so we'll keep the log for now to know that something happens.
     }
 }

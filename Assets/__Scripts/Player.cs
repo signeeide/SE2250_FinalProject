@@ -22,7 +22,10 @@ public class Player : MonoBehaviour
     public float jumpForce;
 
     //Controllers
+    public RuntimeAnimatorController heroDefaultController;
     public RuntimeAnimatorController heroRedController;
+    //public RuntimeAnimatorController heroBlueController;  //Ready for implementation
+    //public RuntimeAnimatorController heroGreenController;  //Ready for implementation
 
 
     // Use this for initialization
@@ -70,14 +73,24 @@ public class Player : MonoBehaviour
             TempFire();
         }
 
+        // Allow to player to "slice"
         if (Input.GetKeyDown(KeyCode.X) && slice == null)
         {
             Slice();
         }
 
+        //Change color to red + boost speed
         if(Input.GetKeyDown(KeyCode.R))
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
+            speed += 2f;
+        }
+
+        //Change color back to default
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            animator.runtimeAnimatorController = heroDefaultController as RuntimeAnimatorController;
+            speed -= 2f;
         }
     }
 
