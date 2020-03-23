@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     public float health = 200f;
     private Rigidbody2D rb2d;
     public Animator animator; // Animator
-    private bool isRed = false;
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
@@ -25,8 +24,8 @@ public class Player : MonoBehaviour
     //Controllers
     public RuntimeAnimatorController heroDefaultController;
     public RuntimeAnimatorController heroRedController;
-    //public RuntimeAnimatorController heroBlueController;
-    //public RuntimeAnimatorController heroGreenController;
+    //public RuntimeAnimatorController heroBlueController;  //Ready for implementation
+    //public RuntimeAnimatorController heroGreenController;  //Ready for implementation
 
 
     // Use this for initialization
@@ -74,21 +73,23 @@ public class Player : MonoBehaviour
             TempFire();
         }
 
+        // Allow to player to "slice"
         if (Input.GetKeyDown(KeyCode.X) && slice == null)
         {
             Slice();
         }
 
+        //Change color to red + boost speed
         if(Input.GetKeyDown(KeyCode.R))
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
-            isRed = true;
             speed += 2f;
         }
+
+        //Change color back to default
         if (Input.GetKeyDown(KeyCode.E))
         {
             animator.runtimeAnimatorController = heroDefaultController as RuntimeAnimatorController;
-            isRed = false;
             speed -= 2f;
         }
     }

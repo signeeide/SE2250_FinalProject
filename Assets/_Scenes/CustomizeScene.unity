@@ -867,7 +867,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: + Attack
+  m_Text: + Attack (Press 'R')
 --- !u!222 &1311880496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1183,6 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b5deb849fa7e4282855b6f7e3bb5f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CustomizeMenuUI: {fileID: 0}
 --- !u!1 &1516076812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,18 +1359,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1535778176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1454572437}
-        m_MethodName: AttackButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1535778176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1699,18 +1689,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1535778176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1454572437}
-        m_MethodName: NormalButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1769160787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1898,7 +1877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Neutral
+  m_Text: Neutral (Press 'E')
 --- !u!222 &1983540421
 CanvasRenderer:
   m_ObjectHideFlags: 0
