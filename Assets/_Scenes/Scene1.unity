@@ -12446,6 +12446,11 @@ PrefabInstance:
     - target: {fileID: 8532070794935636207, guid: c2bf871c2dc4d4650ab5151e1b4bfcec,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532070795077954263, guid: c2bf871c2dc4d4650ab5151e1b4bfcec,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20374,7 +20379,7 @@ PrefabInstance:
     - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
@@ -20454,12 +20459,12 @@ PrefabInstance:
     - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: numberOfHearts
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: health
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5345753917333702477, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}

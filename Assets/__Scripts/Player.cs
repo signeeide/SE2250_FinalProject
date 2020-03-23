@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float health = 200f;
     private Rigidbody2D rb2d;
     public Animator animator; // Animator
+    private bool isRed = false;
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
@@ -81,10 +82,14 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R))
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
+            isRed = true;
+            speed += 2f;
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
             animator.runtimeAnimatorController = heroDefaultController as RuntimeAnimatorController;
+            isRed = false;
+            speed -= 2f;
         }
     }
 
