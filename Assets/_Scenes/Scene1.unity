@@ -20411,6 +20411,11 @@ PrefabInstance:
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: heroRedController
+      value: 
+      objectReference: {fileID: 9100000, guid: 53643eb0b463b544091a80f613672c38, type: 2}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name
