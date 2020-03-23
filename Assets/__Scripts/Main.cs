@@ -13,7 +13,8 @@ public class Main : MonoBehaviour
     void Awake()
     {
         S = this;
-        Invoke("SpawnEnemy", 1f / enemySpawnPerSecond);
+        //Waiting 5 sec to spawn the first one
+        Invoke("SpawnEnemy", 8f / enemySpawnPerSecond);
     }
 
     public void SpawnEnemy()
