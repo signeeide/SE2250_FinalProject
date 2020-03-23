@@ -19,8 +19,10 @@ public class Player : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
     public Transform feetPosition;
-
     public float jumpForce;
+
+    //Controllers
+    public RuntimeAnimatorController heroRedController;
 
 
     // Use this for initialization
@@ -71,6 +73,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X) && slice == null)
         {
             Slice();
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
         }
     }
 
