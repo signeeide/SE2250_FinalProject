@@ -22,7 +22,10 @@ public class Player : MonoBehaviour
     public float jumpForce;
 
     //Controllers
+    public RuntimeAnimatorController heroDefaultController;
     public RuntimeAnimatorController heroRedController;
+    //public RuntimeAnimatorController heroBlueController;
+    //public RuntimeAnimatorController heroGreenController;
 
 
     // Use this for initialization
@@ -78,6 +81,10 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R))
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            animator.runtimeAnimatorController = heroDefaultController as RuntimeAnimatorController;
         }
     }
 

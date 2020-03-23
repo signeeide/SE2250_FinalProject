@@ -20416,6 +20416,11 @@ PrefabInstance:
       propertyPath: heroRedController
       value: 
       objectReference: {fileID: 9100000, guid: 53643eb0b463b544091a80f613672c38, type: 2}
+    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
+        type: 3}
+      propertyPath: heroDefaultController
+      value: 
+      objectReference: {fileID: 9100000, guid: 91bf46b091d13ca489c71235d1793f98, type: 2}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name
