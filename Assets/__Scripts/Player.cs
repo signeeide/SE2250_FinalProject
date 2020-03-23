@@ -48,6 +48,19 @@ public class Player : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
 
+        //Helps movement and flipping the player when turning left
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 180);
+        }
+
         //Get 'speed' from animator, and set equal to moveHorizontal.
         animator.SetFloat("Speed", Mathf.Abs(moveHorizontal));
 
