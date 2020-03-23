@@ -46,6 +46,7 @@ public class Health : MonoBehaviour
         {
             health--;
         }
+
         if (health < 1)
         {
             Player.S.DelayedStartPosition(1f);
