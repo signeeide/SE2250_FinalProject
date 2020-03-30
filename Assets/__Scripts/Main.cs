@@ -19,7 +19,7 @@ public class Main : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        //Pick a random Enemy prefav to initiate
+        //Pick a random Enemy prefab to initiate
         int idx = Random.Range(0, prefabEnemies.Length);
         GameObject go = Instantiate<GameObject>(prefabEnemies[idx]);
 

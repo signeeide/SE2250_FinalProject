@@ -21,11 +21,15 @@ public class Player : MonoBehaviour
     public Transform feetPosition;
     public float jumpForce;
 
-    //Controllers
+    //Controllers for animation
     public RuntimeAnimatorController heroDefaultController;
     public RuntimeAnimatorController heroRedController;
     //public RuntimeAnimatorController heroBlueController;  //Ready for implementation
-    //public RuntimeAnimatorController heroGreenController;  //Ready for implementation
+
+    // Attack
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
 
 
     // Use this for initialization
@@ -83,13 +87,16 @@ public class Player : MonoBehaviour
 
         // Allow to fire light projectiles
         if (Input.GetKeyDown(KeyCode.Z)) {
+            animator.SetTrigger("Shoot");
             TempFire();
         }
 
         // Allow to player to "slice"
         if (Input.GetKeyDown(KeyCode.X) && slice == null)
         {
-            Slice();
+            // Plays player-slice animation
+            animator.SetTrigger("Slice");
+           // Slice();
         }
 
         //Change color to red + boost speed
@@ -130,13 +137,26 @@ public class Player : MonoBehaviour
 
     private void Slice()
     {
+        // Detecting enemies in range specified radius.
+        Collider2D[] atkEnemies; //store all enemies that are hit
+        atkEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        // Loops through all the enemies to deal damage
+        foreach(Collider2D enemy in atkEnemies)
+        {
+            Debug.Log("We hit " + enemy.name);
+        }
+
+        /*
         slice = Instantiate<GameObject>(slicePrefab);
         Vector3 temPos = transform.position;
         temPos.x += 0.5f;
         slice.transform.position = temPos;
 
+        //animator.SetTrigger("Slash");
+
         //Wait before destroying the slice
-        Invoke("DestroySlice", 0.5f);
+        Invoke("DestroySlice", 0.5f); */
     }
 
     private void DestroySlice()
