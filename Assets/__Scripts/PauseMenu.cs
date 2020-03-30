@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -27,14 +28,6 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; //Pauses the in game time!
         gameIsPaused = true;
-    }
-
-    public void Customize()
-    {
-        Debug.Log("Customize");
-        string scene = "CustomizeScene";
-        Main.ChangeScene(scene); //Takes player to the customize scene.
-
     }
 
     public void ReturnToCastle()
