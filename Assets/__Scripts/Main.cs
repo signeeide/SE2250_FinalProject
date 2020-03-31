@@ -25,8 +25,8 @@ public class Main : MonoBehaviour
 
         // Set the initial position for the spawned Enemy
         Vector3 pos = Vector3.zero;
-        pos.x = 64.96f;
-        pos.y = 1.69f;
+        pos.x = 56.0f;
+        pos.y = 0.6f;
         go.transform.position = pos;
 
         numberOfEnemies--;
