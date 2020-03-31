@@ -33,6 +33,10 @@ public class EnemyBee : MonoBehaviour
         
         if (tag.Equals("SlicePlayer")) health -= 100;
 
-        if (health <= 0) Destroy(this.gameObject);
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+            Main.enemiesDestroied++;
+        }
     }
 }

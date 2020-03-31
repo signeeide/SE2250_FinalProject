@@ -9,12 +9,24 @@ public class Main : MonoBehaviour
     public GameObject[] prefabEnemies; //Array on posible enemies
     public float enemySpawnPerSecond = 1f;
     public int numberOfEnemies = 5;
+    public static int enemiesDestroied = 0;
+    static public int progress = 0;
 
     void Awake()
     {
         S = this;
         //Waiting 5 sec to spawn the first one
-        Invoke("SpawnEnemy", 8f / enemySpawnPerSecond);
+        Invoke("SpawnEnemy", 2f / enemySpawnPerSecond);
+    }
+
+    private void Update()
+    {
+        Debug.Log(enemiesDestroied);
+        if(enemiesDestroied == 5)
+        {
+            //Spawn boss + cutscene
+            progress = 1;
+        }
     }
 
     public void SpawnEnemy()

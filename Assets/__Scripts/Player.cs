@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
-    static public int progress = 0;
     static public GameObject slice = null;
     public float speed;
     public float health = 200f;
@@ -12,11 +11,7 @@ public class Player : MonoBehaviour
     public Animator animator; // Animator
     public static bool isStartPositionLv1 = true;
     public static bool isStartPositionLv2 = true;
-     
     public float gameRestartDelay = 2f;
-    public GameObject projectilePrefab;
-    public GameObject slicePrefab;
-    public float projectileSpeed = 20f;
 
     //jump
     private bool isGrounded;
@@ -34,6 +29,8 @@ public class Player : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+    public GameObject projectilePrefab;
+    public float projectileSpeed = 20f;
 
 
     // Use this for initialization
@@ -108,7 +105,7 @@ public class Player : MonoBehaviour
         }
 
         //Change color to red + boost speed
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.R) && Main.progress >= 2)
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
             speed += 2f;
@@ -162,56 +159,57 @@ public class Player : MonoBehaviour
         {
             Debug.Log("We hit " + enemy.name);
         }
-
-        /*
-        slice = Instantiate<GameObject>(slicePrefab);
-        Vector3 temPos = transform.position;
-        temPos.x += 0.5f;
-        slice.transform.position = temPos;
-
-        //animator.SetTrigger("Slash");
-
-        //Wait before destroying the slice
-        Invoke("DestroySlice", 0.5f); */
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         string name = other.gameObject.name;
 
-        //TO DO: Put this in miniboss so that when he is defeated the blocks appear
-        if (name == "TriggerBrick") BlockShow.isVisible = true;
-
-        else if (name == "CastleExit")
+        /* In Scene0 */
+        if (name == "CastleExit")
         {
             isStartPositionLv1 = true;
             Main.ChangeScene("Scene1");
         }
 
-        else if (name == "CastleEntrance") Main.ChangeScene("Scene0");
 
-        else if (name == "Lv1Exit")
+        /* In scene1 */ 
+        if (name == "CastleEntrance") Main.ChangeScene("Scene0");
+
+        if (name == "frog")
+        {
+            if (Main.progress == 0) DialogCanvas.gameIsPausedFrog = true;
+            if (Main.progress == 1) DialogCanvas.gameIsPausedFrog = true;
+        }
+
+        if (name == "Lv1Exit" && Main.progress == 2)
         {
             Main.ChangeScene("Scene2");
             isStartPositionLv2 = true;
         }
 
-        else if (name == "Lv2Entrance")
+
+        /* Scene2 */
+        if (name == "Lv2Entrance")
         {
             isStartPositionLv1 = false;
             Main.ChangeScene("Scene1");
         }
 
-        else if (name == "Lv2Exit") Main.ChangeScene("Boss");
-        
-        else if (name == "BossEntrance")
+        if (name == "TriggerBrick") BlockShow.isVisible = true; //TO DO: Put this in miniboss so that when he is defeated the blocks appear
+
+        else if (name == "OutsideLv") PlayerPosition(2f);
+
+        else if (name == "Chest") Main.progress++;
+
+        if (name == "Lv2Exit") Main.ChangeScene("Boss");
+
+
+        /* In Boss scene */
+        if (name == "BossEntrance")
         {
             isStartPositionLv2 = false;
             Main.ChangeScene("Scene2");
         }
-
-        else if (name == "OutsideLv") PlayerPosition(2f);
-
-        else if (name == "Chest") progress++;
     }
 }
