@@ -14,7 +14,6 @@ public class OpeningCutscene : MonoBehaviour
     private void StartGame()
     {
         Debug.Log("Trying to start game");
-        //TO DO: Change to scene0 when that scene is done
-        Main.ChangeScene("Scene1");
+        Main.ChangeScene("Scene0");
     }
 }

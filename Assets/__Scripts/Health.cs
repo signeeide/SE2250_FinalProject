@@ -42,10 +42,17 @@ public class Health : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log(other.gameObject.name);
         if (other.gameObject.tag.Equals("Bee"))
         {
             health--;
         }
+
+        if (other.gameObject.name.Equals("OutsideLv"))
+        {
+            health--;
+        }
+
 
         if (health < 1)
         {

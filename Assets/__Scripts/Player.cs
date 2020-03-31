@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
+    static public int progress = 0;
     static public GameObject slice = null;
     public float speed;
     public float health = 200f;
     private Rigidbody2D rb2d;
     public Animator animator; // Animator
-    public static bool isStartPosition = true;
+    public static bool isStartPositionLv1 = true;
+    public static bool isStartPositionLv2 = true;
 
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
@@ -46,7 +47,7 @@ public class Player : MonoBehaviour
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
 
-        if (!isStartPosition)
+        if (!isStartPositionLv1)
         {
             Lv1ExitPosition();
         }
@@ -119,13 +120,6 @@ public class Player : MonoBehaviour
             animator.runtimeAnimatorController = heroDefaultController as RuntimeAnimatorController;
             speed -= 2f;
         }
-
-        //Special things for scene2:
-        if(SceneManager.GetActiveScene().name == "Scene2")
-        {
-
-        }
-
     }
 
     public void DelayedStartPosition(float delay)
@@ -136,7 +130,7 @@ public class Player : MonoBehaviour
     private void Lv1StartPosition()
     {
         Vector3 temPos = transform.position;
-        temPos.x = 1.85f;
+        temPos.x = 2.76f;
         temPos.y = 1.61f;
         transform.position = temPos;
     }
@@ -145,6 +139,22 @@ public class Player : MonoBehaviour
     {
         Vector3 temPos = transform.position;
         temPos.x = 64.17f;
+        temPos.y = 1.61f;
+        transform.position = temPos;
+    }
+
+    private void Lv2StartPosition()
+    {
+        Vector3 temPos = transform.position;
+        temPos.x = 2f;
+        temPos.y = 1.61f;
+        transform.position = temPos;
+    }
+
+    private void Lv2ExitPosition()
+    {
+        Vector3 temPos = transform.position;
+        temPos.x = 45.72f;
         temPos.y = 1.61f;
         transform.position = temPos;
     }
@@ -192,37 +202,36 @@ public class Player : MonoBehaviour
         Debug.Log(name);
 
         //TO DO: Put this in miniboss so that when he is defeated the blocks appear
-        if (name == "TriggerBrick")
-        {
-            BlockShow.isVisible = true;
-        }
 
-        else if (name == "CastleEntrance")
-        {
-            Main.ChangeScene("Scene0");
-        }
+        if (name == "TriggerBrick") BlockShow.isVisible = true;
 
+        else if (name == "CastleEntrance") Main.ChangeScene("Scene0");
+        
         else if (name == "CastleExit")
         {
             Main.ChangeScene("Scene1");
-            isStartPosition = true;
+            isStartPositionLv1 = true;
         }
 
         else if( name == "Lv1Exit")
         {
             Main.ChangeScene("Scene2");
+            Lv2StartPosition();
         }
 
         else if (name == "Lv2Entrance")
         {
             Main.ChangeScene("Scene1");
-            isStartPosition = false;
+            isStartPositionLv1 = false;
         }
 
         else if (name == "Lv2Exit")
         {
             //Main.ChangeScene("Scene3");
         }
-    }
 
+        else if (name == "OutsideLv") Lv2StartPosition();
+        
+        else if (name == "Chest") progress++;
+    }
 }
