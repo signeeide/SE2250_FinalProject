@@ -43,6 +43,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background0
+    uniqueID: 1473507013
+    locked: 0
+  - name: Background1
+    uniqueID: 2263350089
+    locked: 0
+  - name: Background2
+    uniqueID: 3733769959
+    locked: 0
   - name: BehindSky
     uniqueID: 1248836925
     locked: 0

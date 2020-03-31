@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Player : MonoBehaviour
     public Animator animator; // Animator
     public static bool isStartPositionLv1 = true;
     public static bool isStartPositionLv2 = true;
-
+     
     public float gameRestartDelay = 2f;
     public GameObject projectilePrefab;
     public GameObject slicePrefab;
@@ -47,10 +48,9 @@ public class Player : MonoBehaviour
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
 
-        if (!isStartPositionLv1)
-        {
-            Lv1ExitPosition();
-        }
+        if (!isStartPositionLv1 && SceneManager.GetActiveScene().name.Equals("Scene1")) PlayerPosition(60.17f);
+        
+        else if (!isStartPositionLv2 && SceneManager.GetActiveScene().name.Equals("Scene2")) PlayerPosition(45.72f);
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
@@ -135,26 +135,10 @@ public class Player : MonoBehaviour
         transform.position = temPos;
     }
 
-    private void Lv1ExitPosition()
+    private void PlayerPosition(float x)
     {
         Vector3 temPos = transform.position;
-        temPos.x = 64.17f;
-        temPos.y = 1.61f;
-        transform.position = temPos;
-    }
-
-    private void Lv2StartPosition()
-    {
-        Vector3 temPos = transform.position;
-        temPos.x = 2f;
-        temPos.y = 1.61f;
-        transform.position = temPos;
-    }
-
-    private void Lv2ExitPosition()
-    {
-        Vector3 temPos = transform.position;
-        temPos.x = 45.72f;
+        temPos.x = x;
         temPos.y = 1.61f;
         transform.position = temPos;
     }
@@ -191,47 +175,43 @@ public class Player : MonoBehaviour
         Invoke("DestroySlice", 0.5f); */
     }
 
-    private void DestroySlice()
-    {
-        Destroy(slice);
-    }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         string name = other.gameObject.name;
-        Debug.Log(name);
 
         //TO DO: Put this in miniboss so that when he is defeated the blocks appear
-
         if (name == "TriggerBrick") BlockShow.isVisible = true;
 
-        else if (name == "CastleEntrance") Main.ChangeScene("Scene0");
-        
         else if (name == "CastleExit")
         {
-            Main.ChangeScene("Scene1");
             isStartPositionLv1 = true;
+            Main.ChangeScene("Scene1");
         }
 
-        else if( name == "Lv1Exit")
+        else if (name == "CastleEntrance") Main.ChangeScene("Scene0");
+
+        else if (name == "Lv1Exit")
         {
             Main.ChangeScene("Scene2");
-            Lv2StartPosition();
+            isStartPositionLv2 = true;
         }
 
         else if (name == "Lv2Entrance")
         {
-            Main.ChangeScene("Scene1");
             isStartPositionLv1 = false;
+            Main.ChangeScene("Scene1");
         }
 
-        else if (name == "Lv2Exit")
-        {
-            //Main.ChangeScene("Scene3");
-        }
-
-        else if (name == "OutsideLv") Lv2StartPosition();
+        else if (name == "Lv2Exit") Main.ChangeScene("Boss");
         
+        else if (name == "BossEntrance")
+        {
+            isStartPositionLv2 = false;
+            Main.ChangeScene("Scene2");
+        }
+
+        else if (name == "OutsideLv") PlayerPosition(2f);
+
         else if (name == "Chest") progress++;
     }
 }
