@@ -9,6 +9,8 @@ TagManager:
   - SlicePlayer
   - ChestLv2
   - FancyBrick
+  - RightBounds
+  - LeftBounds
   layers:
   - Default
   - TransparentFX

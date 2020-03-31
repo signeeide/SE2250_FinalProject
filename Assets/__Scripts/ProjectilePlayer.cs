@@ -9,4 +9,5 @@ public class ProjectilePlayer : MonoBehaviour
         if(!other.gameObject.name.Equals("Player"))
             Destroy(this.gameObject);
     }
+
 }
