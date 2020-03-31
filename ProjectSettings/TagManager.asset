@@ -7,6 +7,8 @@ TagManager:
   - Bee
   - ProjectilePlayer
   - SlicePlayer
+  - ChestLv2
+  - FancyBrick
   layers:
   - Default
   - TransparentFX
@@ -41,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BehindSky
+    uniqueID: 1248836925
+    locked: 0
   - name: Sky
     uniqueID: 3831539579
     locked: 0

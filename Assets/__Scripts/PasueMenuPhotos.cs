@@ -13,7 +13,7 @@ public class PasueMenuPhotos : MonoBehaviour
 
     private void Awake()
     {
-        checkpoint = Player.checkpoint;
+        //checkpoint = Player.checkpoint;
     }
 
     // Update is called once per frame
