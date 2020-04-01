@@ -60,7 +60,6 @@ public class EnemyBee : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-
         string tag = other.gameObject.tag;
 
         if (tag.Equals("ProjectilePlayer"))
@@ -70,11 +69,6 @@ public class EnemyBee : MonoBehaviour
         }
 
         if (tag.Equals("SlicePlayer")) health -= 100;
-
-        if (tag.Equals("Player"))
-        {
-            Health.health--;
-        }
 
         if (health <= 0)
         {

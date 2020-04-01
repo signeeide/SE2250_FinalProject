@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MiniBoss : MonoBehaviour
 {
@@ -13,20 +11,18 @@ public class MiniBoss : MonoBehaviour
     //public float projPrSec = 1f;
     public int health = 500;
 
-    void Update()
-    {
-        transform.position = Vector3.Lerp(pos1, pos2, (Mathf.Sin(speed * Time.time) + 1.0f) / 2.0f);
-       
-
-    }
-
     void Start()
     {
-          
-          InvokeRepeating("shootProjectile", 8f / 2f, 3f);
+        InvokeRepeating("shootProjectile", 8f / 2f, 3f);
     }
     //start attacking if player is withing a certain distance 
 
+    void Update()
+    {
+        transform.position = Vector3.Lerp(pos1, pos2, (Mathf.Sin(speed * Time.time) + 1.0f) / 2.0f);
+
+        Debug.Log("Miniboss health: " + health);
+    }
 
    /* IEnumerator shoot()
     {
@@ -35,13 +31,25 @@ public class MiniBoss : MonoBehaviour
     }*/
     private void shootProjectile()
     {
-        
         // get projectile properties and instansiate projectiles
         GameObject projectileGO = Instantiate<GameObject>(projectile);
         projectileGO.transform.position = transform.position;
         Rigidbody2D rb = projectileGO.GetComponent<Rigidbody2D>(); 
         rb.velocity = Vector3.left * projSpeed;
+    }
 
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        string tag = other.gameObject.tag;
+        Debug.Log("Miniboss: " + tag);
 
+        if (tag.Equals("ProjectilePlayer")) health -= 30;
+        
+        if (tag.Equals("SlicePlayer")) health -= 100;
+
+        if (health <= 0) {
+            Destroy(this.gameObject);
+            BlockShow.isVisible = true; //When he is defeated the blocks appear
+        }
     }
 }

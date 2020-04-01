@@ -149,7 +149,7 @@ public class Player : MonoBehaviour
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefabLight);
         //If the chest is opened, dark projectile is used:
-        if (Main.progress >= 4) projGO = Instantiate<GameObject>(projectilePrefabLight);
+        //if (Main.progress >= 4) projGO = Instantiate<GameObject>(projectilePrefabLight);
 
         projGO.transform.position = transform.position;
         Rigidbody2D rigidB = projGO.GetComponent<Rigidbody2D>();
@@ -196,8 +196,6 @@ public class Player : MonoBehaviour
             isStartPositionLv1 = false;
             Main.ChangeScene("Scene1");
         }
-
-        if (name == "TriggerBrick") BlockShow.isVisible = true; //TO DO: Put this in miniboss so that when he is defeated the blocks appear
 
         else if (name == "OutsideLv") PlayerPosition(2f);
 

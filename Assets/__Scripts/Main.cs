@@ -60,7 +60,7 @@ public class Main : MonoBehaviour
     public void Restart()
     {
         //Reload scene_0 to restart the game
-        ChangeScene("Scene1");
+        ChangeScene(SceneManager.GetActiveScene().name);
     }
 
     public static void ChangeScene(string nextScene)

@@ -10,6 +10,7 @@ public class EnemyAI : MonoBehaviour
 
     public float speed = 200f;
     public float nextWaypointDist = 3f;
+    public float health = 90f;
 
     public Transform enemyGFX;
 
@@ -49,7 +50,7 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
- 
+
     void FixedUpdate()
     {
         // if there are no paths, return
@@ -57,18 +58,19 @@ public class EnemyAI : MonoBehaviour
 
         // If there are no more paths, the end is reached.
         // else, it is not the end.
-        if(currentWaypoint >= path.vectorPath.Count)
+        if (currentWaypoint >= path.vectorPath.Count)
         {
             reachedEnd = true;
             return;
-        } else
+        }
+        else
         {
             reachedEnd = false;
         }
 
         // get current waypoint, substract current position
         // normalized to ensure length of vector = 1 
-        Vector2 dir = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;
+        Vector2 dir = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = dir * speed * Time.deltaTime;
 
         //adds force to enemy
@@ -78,7 +80,7 @@ public class EnemyAI : MonoBehaviour
         float dist = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
 
         // current waypoint reached
-        if(dist < nextWaypointDist)
+        if (dist < nextWaypointDist)
         {
             // move to next waypoint
             currentWaypoint++;
@@ -93,6 +95,17 @@ public class EnemyAI : MonoBehaviour
         {
             enemyGFX.localScale = new Vector3(2f, 2f, 1f);
         }
+    }
 
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        string tag = other.gameObject.tag;
+        Debug.Log("Crow: " + tag);
+
+        if (tag.Equals("ProjectilePlayer")) health -= 30;
+        
+        if (tag.Equals("SlicePlayer")) health -= 100;
+
+        if (health <= 0) Destroy(this.gameObject);
     }
 }

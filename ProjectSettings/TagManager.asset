@@ -11,6 +11,9 @@ TagManager:
   - FancyBrick
   - RightBounds
   - LeftBounds
+  - Miniboss
+  - Eagle
+  - BossProjectile
   layers:
   - Default
   - TransparentFX

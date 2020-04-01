@@ -41,16 +41,16 @@ public class Health : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag.Equals("Bee"))
-        {
-            health--;
-        }
+        if (other.gameObject.tag.Equals("Bee")) health--;
 
-        if (other.gameObject.name.Equals("OutsideLv"))
-        {
-            health--;
-        }
+        if (other.gameObject.tag.Equals("Crow")) health--;
 
+        if (other.gameObject.tag.Equals("Miniboss")) health--;
+
+        if (other.gameObject.tag.Equals("BossProjectile")) health--;
+
+        if (other.gameObject.name.Equals("OutsideLv")) health--;
+        
         if (health < 1)
         {
             Player.S.DelayedStartPosition(1f);

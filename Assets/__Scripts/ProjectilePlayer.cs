@@ -15,19 +15,12 @@ public class ProjectilePlayer : MonoBehaviour
         //child = player.transform.GetChild(1).gameObject;
         //child.SetActive(false);
     }
+
     public void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log(other.gameObject.name);
         if (!other.gameObject.name.Equals("Player"))
         {
             Destroy(this.gameObject);
-            if(other.gameObject.layer.Equals("Enemy"))
-            {
-                damage = 30f;
-            }
-
         }
-
     }
-
 }
