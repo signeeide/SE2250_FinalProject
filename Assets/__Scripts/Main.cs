@@ -19,8 +19,8 @@ public class Main : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(progress);
-        Debug.Log(spawn);
+        Debug.Log("Main progress: " + progress);
+        Debug.Log("Main spawn: " + spawn);
 
         if (progress == 1 && spawn)
         {

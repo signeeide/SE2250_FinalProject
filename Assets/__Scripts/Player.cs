@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
-    static public GameObject slice = null;
     public float speed;
     public float health = 200f;
     private Rigidbody2D rb2d;
@@ -33,6 +32,8 @@ public class Player : MonoBehaviour
     public GameObject projectilePrefabLight;
     public GameObject projectilePrefabDark;
     public float projectileSpeed = 20f;
+    static public GameObject slice = null;
+    public GameObject slicePrefab;
     //private GameObject attackPoint;
 
 
@@ -106,11 +107,16 @@ public class Player : MonoBehaviour
         {
             // Plays player-slice animation
             animator.SetTrigger("Slice");
-            //Slice();
+            Slice();
         }
 
         //Change color to red + boost speed
-        if(Input.GetKeyDown(KeyCode.R) && Main.progress >= 3)
+        if(Main.progress == 3)
+        {
+            Debug.Log("TRUE!!!");
+        }
+
+        if(Input.GetKeyDown(KeyCode.R) && Main.progress == 3)
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
             speed += 2f;
@@ -149,17 +155,30 @@ public class Player : MonoBehaviour
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefabLight);
         //If the chest is opened, dark projectile is used:
-        //if (Main.progress >= 4) projGO = Instantiate<GameObject>(projectilePrefabLight);
+        if (Main.progress == 5) projGO = Instantiate<GameObject>(projectilePrefabDark);
 
         projGO.transform.position = transform.position;
         Rigidbody2D rigidB = projGO.GetComponent<Rigidbody2D>();
         rigidB.velocity = Vector3.right * projectileSpeed;
     }
 
-    private void Slice()
+    void Slice()
     {
         //attackPoint.SetActive(true);
 
+        slice = Instantiate<GameObject>(slicePrefab);
+        Vector3 temPos = transform.position;
+        temPos.x += 0.4f;
+        slice.transform.position = temPos;
+
+        //Wait before destroying the slice
+        Invoke("DestroySlice", 0.8f);
+    }
+
+
+    void DestroySlice()
+    {
+        Destroy(slice);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -199,13 +218,13 @@ public class Player : MonoBehaviour
 
         else if (name == "OutsideLv") PlayerPosition(2f);
 
-        else if (name == "Chest")
+        else if (name == "Chest" && Main.progress == 4)
         {
             DialogCanvas.gameIsPausedFrog = true;
-            Main.progress++;
+            Main.progress = 5;
         }
 
-        if (name == "Lv2Exit") Main.ChangeScene("Boss");
+        if (name == "Lv2Exit" && Main.progress == 5) Main.ChangeScene("Boss");
 
 
         /* In Boss scene */

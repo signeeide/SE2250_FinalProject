@@ -2437,38 +2437,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &319774505 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 706826759, guid: 311e0ac76c0d44d27809651eda731ebd,
-    type: 3}
-  m_PrefabInstance: {fileID: 570428872}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &319774507
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319774505}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1001 &321631863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3808,65 +3776,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 706826760, guid: 311e0ac76c0d44d27809651eda731ebd, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 706826760, guid: 311e0ac76c0d44d27809651eda731ebd, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 706826760, guid: 311e0ac76c0d44d27809651eda731ebd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: projectilePrefabLight
-      value: 
-      objectReference: {fileID: 4442036343718291736, guid: b31abb23d16dd493ba38658d5d8997a0,
-        type: 3}
-    - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: projectilePrefabDark
-      value: 
-      objectReference: {fileID: 4290544435746436647, guid: 6efd4810bc9c44b2f9c3d54f44971be4,
-        type: 3}
     - target: {fileID: 5345753916924415004, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.data[5]
-      value: 
-      objectReference: {fileID: 1401082444}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.data[6]
-      value: 
-      objectReference: {fileID: 860055022}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.data[7]
-      value: 
-      objectReference: {fileID: 1564284351}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.data[8]
-      value: 
-      objectReference: {fileID: 1555662437}
-    - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
-        type: 3}
-      propertyPath: hearts.Array.data[9]
-      value: 
-      objectReference: {fileID: 710471313}
     - target: {fileID: 5345753916924415005, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
       propertyPath: hearts.Array.data[0]

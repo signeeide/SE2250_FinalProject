@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 706826760}
+  - component: {fileID: 319774507}
   m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -24,12 +25,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706826759}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.123, y: 0.013, z: 0}
-  m_LocalScale: {x: 0.76754, y: 0.76754, z: 0.76754}
+  m_LocalPosition: {x: 0.123, y: 0.07, z: 0}
+  m_LocalScale: {x: 0.06, y: 0.27, z: 0.76754}
   m_Children: []
   m_Father: {fileID: 5345753917333702477}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &319774507
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706826759}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5345753916256496054
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,9 +315,13 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
-  projectilePrefab: {fileID: 4442036343718291736, guid: b31abb23d16dd493ba38658d5d8997a0,
+  projectilePrefabLight: {fileID: 4442036343718291736, guid: b31abb23d16dd493ba38658d5d8997a0,
+    type: 3}
+  projectilePrefabDark: {fileID: 4290544435746436647, guid: 6efd4810bc9c44b2f9c3d54f44971be4,
     type: 3}
   projectileSpeed: 20
+  slicePrefab: {fileID: 2063905371760366903, guid: c93f3b722851c407aa6269c217e142a5,
+    type: 3}
 --- !u!114 &5345753916924415005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,7 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcef406456b9d42d59fe0d039dc73963, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
   numberOfHearts: 4
   hearts:
   - {fileID: 0}

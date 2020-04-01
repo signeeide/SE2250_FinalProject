@@ -24173,7 +24173,7 @@ PrefabInstance:
         type: 3}
       propertyPath: slicePrefab
       value: 
-      objectReference: {fileID: 9025941540093123405, guid: 98ec4a9e0f6b54b48808bb2a337bb283,
+      objectReference: {fileID: 2063905371760366903, guid: c93f3b722851c407aa6269c217e142a5,
         type: 3}
     - target: {fileID: 5345753916924414995, guid: 311e0ac76c0d44d27809651eda731ebd,
         type: 3}
