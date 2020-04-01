@@ -33,7 +33,8 @@ public class MiniBoss : MonoBehaviour
     {
         // get projectile properties and instansiate projectiles
         GameObject projectileGO = Instantiate<GameObject>(projectile);
-        projectileGO.transform.position = transform.position;
+        //projectileGO.transform.position = transform.position;
+        projectileGO.transform.position.Set(transform.position.x + 3f, transform.position.y, transform.position.z); 
         Rigidbody2D rb = projectileGO.GetComponent<Rigidbody2D>(); 
         rb.velocity = Vector3.left * projSpeed;
     }
