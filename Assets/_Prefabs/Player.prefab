@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &706826760
 Transform:
   m_ObjectHideFlags: 0
@@ -275,11 +275,6 @@ MonoBehaviour:
   health: 200
   animator: {fileID: 5345753916642966716}
   gameRestartDelay: 2
-  projectilePrefab: {fileID: 4442036343718291736, guid: b31abb23d16dd493ba38658d5d8997a0,
-    type: 3}
-  slicePrefab: {fileID: 9025941540093123405, guid: 98ec4a9e0f6b54b48808bb2a337bb283,
-    type: 3}
-  projectileSpeed: 20
   checkRadius: 0.5
   whatIsGround:
     serializedVersion: 2
@@ -289,11 +284,13 @@ MonoBehaviour:
   heroDefaultController: {fileID: 9100000, guid: 91bf46b091d13ca489c71235d1793f98,
     type: 2}
   heroRedController: {fileID: 9100000, guid: 53643eb0b463b544091a80f613672c38, type: 2}
-  attackPoint: {fileID: 706826760}
   attackRange: 0.5
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
+  projectilePrefab: {fileID: 4442036343718291736, guid: b31abb23d16dd493ba38658d5d8997a0,
+    type: 3}
+  projectileSpeed: 20
 --- !u!114 &5345753916924415005
 MonoBehaviour:
   m_ObjectHideFlags: 0
