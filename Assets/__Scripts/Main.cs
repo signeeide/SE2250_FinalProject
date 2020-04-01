@@ -21,7 +21,7 @@ public class Main : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(enemiesDestroied);
+       // Debug.Log(enemiesDestroied);
         if(enemiesDestroied == 5)
         {
             //Spawn boss + cutscene

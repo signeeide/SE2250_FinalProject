@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public static bool isStartPositionLv1 = true;
     public static bool isStartPositionLv2 = true;
     public float gameRestartDelay = 2f;
+    //public GameObject player;
 
     //jump
     private bool isGrounded;
@@ -26,17 +27,19 @@ public class Player : MonoBehaviour
     //public RuntimeAnimatorController heroBlueController;  //Ready for implementation
 
     // Attack
-    public Transform attackPoint;
+    //private Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public GameObject projectilePrefab;
     public float projectileSpeed = 20f;
+    //private GameObject attackPoint;
 
 
     // Use this for initialization
     void Awake()
     {
-        if(S == null) {
+
+        if (S == null) {
             S = this;
         }
         else {
@@ -53,6 +56,7 @@ public class Player : MonoBehaviour
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
+
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
@@ -101,7 +105,7 @@ public class Player : MonoBehaviour
         {
             // Plays player-slice animation
             animator.SetTrigger("Slice");
-           // Slice();
+            //Slice();
         }
 
         //Change color to red + boost speed
@@ -150,15 +154,8 @@ public class Player : MonoBehaviour
 
     private void Slice()
     {
-        // Detecting enemies in range specified radius.
-        Collider2D[] atkEnemies; //store all enemies that are hit
-        atkEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        //attackPoint.SetActive(true);
 
-        // Loops through all the enemies to deal damage
-        foreach(Collider2D enemy in atkEnemies)
-        {
-            Debug.Log("We hit " + enemy.name);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
