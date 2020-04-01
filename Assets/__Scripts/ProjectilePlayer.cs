@@ -12,11 +12,12 @@ public class ProjectilePlayer : MonoBehaviour
     void Start()
     {
         //BoxCollider2D bxColl = player.GetComponentInChildren<BoxCollider2D>();
-        child = player.transform.GetChild(1).gameObject;
-        child.SetActive(false);
+        //child = player.transform.GetChild(1).gameObject;
+        //child.SetActive(false);
     }
     public void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log(other.gameObject.name);
         if (!other.gameObject.name.Equals("Player"))
         {
             Destroy(this.gameObject);

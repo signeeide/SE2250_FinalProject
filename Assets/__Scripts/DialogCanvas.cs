@@ -17,22 +17,33 @@ public class DialogCanvas : MonoBehaviour
 
     public void Resume()
     {
-        if (Main.progress == 0) pauseMenuUI1.SetActive(false);
-        else if (Main.progress == 1) pauseMenuUI2.SetActive(false);
-        else if (Main.progress == 2) pauseMenuUI3.SetActive(false);
+        if (Main.progress == 1) pauseMenuUI1.SetActive(false);
+        else if (Main.progress == 3) pauseMenuUI2.SetActive(false);
+        else if (Main.progress == 4) pauseMenuUI3.SetActive(false);
         Time.timeScale = 1f; //At 1f time will runn as normal
         gameIsPausedFrog = false;
     }
 
     void Pause()
     {
-        if (Main.progress == 0) pauseMenuUI1.SetActive(true);
-        else if (Main.progress == 1)
+        if (Main.progress == 0)
+        {
+            pauseMenuUI1.SetActive(true);
+            Main.progress = 1;
+        }
+
+        else if (Main.progress == 2)
         {
             pauseMenuUI2.SetActive(true);
-            Main.progress = 2;
+            Main.progress = 3;
         }
-        else if (Main.progress == 2) pauseMenuUI3.SetActive(true);
+
+        else if (Main.progress == 3)
+        {
+            pauseMenuUI3.SetActive(true);
+            Main.progress = 4;
+        }
+
         Time.timeScale = 0f; //Pauses the in game time!
         gameIsPausedFrog = true;
     }

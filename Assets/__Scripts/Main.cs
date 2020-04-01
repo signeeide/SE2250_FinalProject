@@ -7,25 +7,31 @@ public class Main : MonoBehaviour
 
     [Header("Set in Inspectior")]
     public GameObject[] prefabEnemies; //Array on posible enemies
-    public float enemySpawnPerSecond = 1f;
-    public int numberOfEnemies = 5;
+    private int numberOfEnemies = 0;
     public static int enemiesDestroied = 0;
     static public int progress = 0;
+    public static bool spawn = true;
 
     void Awake()
     {
         S = this;
-        //Waiting 5 sec to spawn the first one
-        Invoke("SpawnEnemy", 2f / enemySpawnPerSecond);
     }
 
     private void Update()
     {
-       // Debug.Log(enemiesDestroied);
-        if(enemiesDestroied == 5)
+        Debug.Log(progress);
+        Debug.Log(spawn);
+
+        if (progress == 1 && spawn)
         {
-            //Spawn boss + cutscene
-            progress = 1;
+            SpawnEnemy();
+            spawn = false;
+        }
+
+        if (enemiesDestroied == 5)
+        {
+            //Cutscene
+            progress = 2;
         }
     }
 
@@ -40,14 +46,9 @@ public class Main : MonoBehaviour
         pos.x = 56.0f;
         pos.y = 0.6f;
         go.transform.position = pos;
+        numberOfEnemies++;
 
-        numberOfEnemies--;
-
-        if (numberOfEnemies > 0)
-        {
-            // Invoke SpawningEnemy() again
-            Invoke("SpawnEnemy", 1f / enemySpawnPerSecond);
-        }
+        if(numberOfEnemies < 5) Invoke("SpawnEnemy", 2f);
     }
 
     public void DelayedRestart(float delay)

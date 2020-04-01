@@ -3,13 +3,12 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public int health;
+    public static int health = 4;
     public int numberOfHearts;
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
-
 
     private void Update()
     {
@@ -51,7 +50,6 @@ public class Health : MonoBehaviour
         {
             health--;
         }
-
 
         if (health < 1)
         {
