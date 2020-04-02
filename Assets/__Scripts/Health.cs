@@ -43,7 +43,7 @@ public class Health : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Bee")) health--;
 
-        if (other.gameObject.tag.Equals("Crow")) health--;
+        if (other.gameObject.tag.Equals("Eagle")) health--;
 
         if (other.gameObject.tag.Equals("Boss")) health--;
 
@@ -53,9 +53,9 @@ public class Health : MonoBehaviour
         
         if (health < 1)
         {
-            Player.S.DelayedStartPosition(1f);
-            Main.S.DelayedRestart(1f);
             Debug.Log("Player eliminated");
+            DeathMenu.isDefeated = true;
+            health = 4;
         }
     }
 }

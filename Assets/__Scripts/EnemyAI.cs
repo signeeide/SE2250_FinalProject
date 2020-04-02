@@ -100,7 +100,6 @@ public class EnemyAI : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D other)
     {
         string tag = other.gameObject.tag;
-        Debug.Log("Crow: " + tag);
 
         if (tag.Equals("ProjectilePlayer")) health -= 30;
         

@@ -68,14 +68,15 @@ public class EnemyBee : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        if (tag.Equals("SlicePlayer")) health -= 100;
-
-        if (health <= 0)
+        if (tag.Equals("SlicePlayer"))
         {
-            Destroy(this.gameObject);
-            Main.enemiesDestroied++;
+            health -= 100;
+            Destroy(other.gameObject);
         }
 
+        if (health <= 0) Destroy(this.gameObject);
+
+        if (other.gameObject.tag.Equals("Player")) Health.health--;
 
         if (other.tag.Equals("RightBounds"))
         {
@@ -98,5 +99,4 @@ public class EnemyBee : MonoBehaviour
 
         }
     }
-
 }
