@@ -11,6 +11,7 @@ public class Main : MonoBehaviour
     public static int enemiesDestroied = 0;
     static public int progress = 0;
     public static bool spawn = true;
+    public static bool increase = false;
 
     void Awake()
     {
@@ -20,7 +21,6 @@ public class Main : MonoBehaviour
     private void Update()
     {
         Debug.Log("Main progress: " + progress);
-        Debug.Log("Main spawn: " + spawn);
 
         if (progress == 1 && spawn)
         {
@@ -31,7 +31,13 @@ public class Main : MonoBehaviour
         if (enemiesDestroied == 5)
         {
             //Cutscene
-            progress = 2;
+            progress = 2; //Set progress to 2
+        }
+
+        if (increase)
+        {
+            progress++;
+            increase = false;
         }
     }
 

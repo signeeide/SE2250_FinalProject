@@ -13,12 +13,14 @@ public class DialogCanvas : MonoBehaviour
         if (gameIsPausedFrog) Pause();
 
         if (Input.GetKeyDown(KeyCode.X)) Resume();
+
+        Debug.Log("Dialogs progress: " + Main.progress);
     }
 
     public void Resume()
     {
         if (Main.progress == 1) pauseMenuUI1.SetActive(false);
-        else if (Main.progress == 3) pauseMenuUI2.SetActive(false);
+        else if (Main.progress == 2 || Main.progress == 3) pauseMenuUI2.SetActive(false);
         else if (Main.progress == 4) pauseMenuUI3.SetActive(false);
         Time.timeScale = 1f; //At 1f time will runn as normal
         gameIsPausedFrog = false;
@@ -26,22 +28,19 @@ public class DialogCanvas : MonoBehaviour
 
     void Pause()
     {
-        if (Main.progress == 0)
+        if (Main.progress == 1)
         {
             pauseMenuUI1.SetActive(true);
-            Main.progress = 1;
-        }
-
-        else if (Main.progress == 2)
-        {
-            pauseMenuUI2.SetActive(true);
-            Main.progress = 3;
         }
 
         else if (Main.progress == 3)
         {
+            pauseMenuUI2.SetActive(true);
+        }
+
+        else if (Main.progress == 4)
+        {
             pauseMenuUI3.SetActive(true);
-            Main.progress = 4;
         }
 
         Time.timeScale = 0f; //Pauses the in game time!

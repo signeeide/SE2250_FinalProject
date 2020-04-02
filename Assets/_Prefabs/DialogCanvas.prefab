@@ -263,10 +263,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'You got your brothers dark band. Your attack has gone up!
-
-    Return
-    to Froggy before moving on, he has a gift for you...'
+  m_Text: You got your brothers dark band. Your attack has gone up!
 --- !u!114 &8210185155005484883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +357,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "I didn't know you were our queen, you just looked capable. Thank you!
-    \nHere take this dress. It will give you extra speed."
+    \nHere take this dress. It will give you extra speed. Just press 'R'."
 --- !u!114 &8210185155103272383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +525,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Help! Some bees are attacking the town! I'll revard you!!
+  m_Text: Help! Some bees are attacking the town!
 --- !u!114 &8210185155290143027
 MonoBehaviour:
   m_ObjectHideFlags: 0

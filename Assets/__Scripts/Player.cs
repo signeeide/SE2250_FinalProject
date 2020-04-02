@@ -36,6 +36,11 @@ public class Player : MonoBehaviour
     public GameObject slicePrefab;
     //private GameObject attackPoint;
 
+    //Progress
+    public bool redDress = false;
+    private bool lv2 = false;
+    private bool dark = false;
+    private bool boss = false;
 
     // Use this for initialization
     void Awake()
@@ -111,12 +116,7 @@ public class Player : MonoBehaviour
         }
 
         //Change color to red + boost speed
-        if(Main.progress == 3)
-        {
-            Debug.Log("TRUE!!!");
-        }
-
-        if(Input.GetKeyDown(KeyCode.R) && Main.progress == 3)
+        if (Input.GetKeyDown(KeyCode.R) && redDress)
         {
             animator.runtimeAnimatorController = heroRedController as RuntimeAnimatorController;
             speed += 2f;
@@ -155,7 +155,7 @@ public class Player : MonoBehaviour
     {
         GameObject projGO = Instantiate<GameObject>(projectilePrefabLight);
         //If the chest is opened, dark projectile is used:
-        if (Main.progress == 5) projGO = Instantiate<GameObject>(projectilePrefabDark);
+        if (dark) projGO = Instantiate<GameObject>(projectilePrefabDark);
 
         projGO.transform.position = transform.position;
         Rigidbody2D rigidB = projGO.GetComponent<Rigidbody2D>();
@@ -198,16 +198,26 @@ public class Player : MonoBehaviour
 
         if (name == "frog")
         {
-            if (Main.progress == 0) DialogCanvas.gameIsPausedFrog = true;
-            if (Main.progress == 2) DialogCanvas.gameIsPausedFrog = true;
+            if (Main.progress == 0)
+            {
+                DialogCanvas.gameIsPausedFrog = true;
+                Main.increase = true; //Set progress to 1
+            }
+            if (Main.progress == 2)
+            {
+                DialogCanvas.gameIsPausedFrog = true;
+                Main.increase = true; //Set progress to 3
+                redDress = lv2 = true;
+            }
         }
 
-        if (name == "Lv1Exit" && Main.progress == 3)
+        if (name == "Lv1Exit" && lv2)
         {
             Main.ChangeScene("Scene2");
             isStartPositionLv2 = true;
         }
 
+        Debug.Log(name);
 
         /* Scene2 */
         if (name == "Lv2Entrance")
@@ -218,13 +228,16 @@ public class Player : MonoBehaviour
 
         else if (name == "OutsideLv") PlayerPosition(2f);
 
-        else if (name == "Chest" && Main.progress == 4)
+
+        else if (name == "Chest")
         {
+            Main.progress = 4;
             DialogCanvas.gameIsPausedFrog = true;
-            Main.progress = 5;
+            boss = true;
+            dark = true;
         }
 
-        if (name == "Lv2Exit" && Main.progress == 5) Main.ChangeScene("Boss");
+        if (name == "Lv2Exit" && boss) Main.ChangeScene("Boss");
 
 
         /* In Boss scene */

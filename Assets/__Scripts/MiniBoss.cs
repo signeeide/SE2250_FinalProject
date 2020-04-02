@@ -20,8 +20,6 @@ public class MiniBoss : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(pos1, pos2, (Mathf.Sin(speed * Time.time) + 1.0f) / 2.0f);
-
-        Debug.Log("Miniboss health: " + health);
     }
 
    /* IEnumerator shoot()
