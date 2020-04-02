@@ -29,12 +29,6 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = true;
     }
 
-    public void ReturnToCastle()
-    {
-        string scene = "Scene1";
-        Main.ChangeScene(scene); //Takes player back home.
-    }
-
     public void QuitGame()
     {
         Debug.Log("Quitting game.");
