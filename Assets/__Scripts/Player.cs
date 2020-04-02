@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     //Progress
     public bool redDress = false;
     private bool lv2 = false;
-    private bool dark = false;
+    public bool dark = false;
     private bool boss = false;
 
     // Use this for initialization
@@ -196,6 +196,8 @@ public class Player : MonoBehaviour
         /* In scene1 */ 
         if (name == "CastleEntrance") Main.ChangeScene("Scene0");
 
+        Debug.Log(Main.progress);
+
         if (name == "frog")
         {
             if (Main.progress == 0)
@@ -216,8 +218,6 @@ public class Player : MonoBehaviour
             Main.ChangeScene("Scene2");
             isStartPositionLv2 = true;
         }
-
-        Debug.Log(name);
 
         /* Scene2 */
         if (name == "Lv2Entrance")

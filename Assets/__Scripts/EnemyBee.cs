@@ -74,7 +74,12 @@ public class EnemyBee : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        if (health <= 0) Destroy(this.gameObject);
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+            Main.enemiesDestroied++;
+            Debug.Log("ED!!");
+        }
 
         if (other.gameObject.tag.Equals("Player")) Health.health--;
 

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MainBoss : MiniBoss
 {
@@ -23,6 +21,7 @@ public class MainBoss : MiniBoss
         if (health <= 0)
         {
             Destroy(this.gameObject);
+            Main.ChangeScene("Endscene");
         }
     }
 }

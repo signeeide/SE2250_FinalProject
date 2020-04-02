@@ -20,13 +20,15 @@ public class Main : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("Main: " + progress);
+
         if (progress == 1 && spawn)
         {
             SpawnEnemy();
             spawn = false;
         }
 
-        if (enemiesDestroied == 5)
+        if (enemiesDestroied == 4)
         {
             //Cutscene
             progress = 2; //Set progress to 2
