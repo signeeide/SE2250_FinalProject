@@ -5719,7 +5719,7 @@ GameObject:
   - component: {fileID: 1006078485}
   m_Layer: 0
   m_Name: MiniBoss
-  m_TagString: Miniboss
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,7 +5740,6 @@ MonoBehaviour:
   projectile: {fileID: 6693950323437110348, guid: 9d92dd20532fb4048929493a4a2275ed,
     type: 3}
   projSpeed: 3
-  health: 500
 --- !u!212 &1006078482
 SpriteRenderer:
   m_ObjectHideFlags: 0

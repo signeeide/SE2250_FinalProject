@@ -1,0 +1,1399 @@
+fileFormatVersion: 2
+guid: 1a23508e70546e843ac16e5baa1f2cd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1642018162865692809
+    second: Regulus_0
+  - first:
+      213: -6599298362710618165
+    second: Regulus_1
+  - first:
+      213: -7045535814610920202
+    second: Regulus_2
+  - first:
+      213: 8835158167191709925
+    second: Regulus_3
+  - first:
+      213: -6831206248438703921
+    second: Regulus_4
+  - first:
+      213: -1284054505924715322
+    second: Regulus_5
+  - first:
+      213: 3152158156108145863
+    second: Regulus_6
+  - first:
+      213: -166784889545791461
+    second: Regulus_7
+  - first:
+      213: -2445424088262334308
+    second: Regulus_8
+  - first:
+      213: -8760412653513525068
+    second: Regulus_9
+  - first:
+      213: 77536715070643800
+    second: Regulus_10
+  - first:
+      213: -8756316882868136396
+    second: Regulus_11
+  - first:
+      213: 4043632676812523548
+    second: Regulus_12
+  - first:
+      213: -8662807620278201607
+    second: Regulus_13
+  - first:
+      213: -2674378885593660324
+    second: Regulus_14
+  - first:
+      213: -7517763474185812419
+    second: Regulus_15
+  - first:
+      213: -835380907846674532
+    second: Regulus_16
+  - first:
+      213: 6146457814117169856
+    second: Regulus_17
+  - first:
+      213: -5279177942922576687
+    second: Regulus_18
+  - first:
+      213: -5950738221555196002
+    second: Regulus_19
+  - first:
+      213: -5317458732152600997
+    second: Regulus_20
+  - first:
+      213: 8922135428624342996
+    second: Regulus_21
+  - first:
+      213: 8553578498383461563
+    second: Regulus_22
+  - first:
+      213: -357582966711541199
+    second: Regulus_23
+  - first:
+      213: -8917528580517137699
+    second: Regulus_24
+  - first:
+      213: 816905100986805278
+    second: Regulus_25
+  - first:
+      213: 6736190649423951550
+    second: Regulus_26
+  - first:
+      213: 1578035061653481426
+    second: Regulus_27
+  - first:
+      213: 7535740116845245492
+    second: Regulus_28
+  - first:
+      213: -6764101822156349528
+    second: Regulus_29
+  - first:
+      213: -129721128837876487
+    second: Regulus_30
+  - first:
+      213: -9202704566095108299
+    second: Regulus_31
+  - first:
+      213: -4599823239097051005
+    second: Regulus_32
+  - first:
+      213: 5397875954754579287
+    second: Regulus_33
+  - first:
+      213: -2149794811067331951
+    second: Regulus_34
+  - first:
+      213: -4684543305240043045
+    second: Regulus_35
+  - first:
+      213: -5991491410614304289
+    second: Regulus_36
+  - first:
+      213: -1357394114802881520
+    second: Regulus_37
+  - first:
+      213: 7592684698351860813
+    second: Regulus_38
+  - first:
+      213: 1782559316083389208
+    second: Regulus_39
+  - first:
+      213: 2819534370820360587
+    second: Regulus_40
+  - first:
+      213: -6578610139704145050
+    second: Regulus_41
+  - first:
+      213: -8193871599836360575
+    second: Regulus_42
+  - first:
+      213: 2308359754392559254
+    second: Regulus_43
+  - first:
+      213: -3679760177195249547
+    second: Regulus_44
+  - first:
+      213: 5318549243446568714
+    second: Regulus_45
+  - first:
+      213: 4033570451526218493
+    second: Regulus_46
+  - first:
+      213: 1744493280147302802
+    second: Regulus_47
+  - first:
+      213: -8399611794615861550
+    second: Regulus_48
+  - first:
+      213: 1872170093239439820
+    second: Regulus_49
+  - first:
+      213: 8897207066566528272
+    second: Regulus_50
+  - first:
+      213: -4613564382058851970
+    second: Regulus_51
+  - first:
+      213: 5723279529938719779
+    second: Regulus_52
+  - first:
+      213: -2300017384569769085
+    second: Regulus_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Regulus_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1279
+        width: 219
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f96af3e216639e0800000000000000
+      internalID: -1642018162865692809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1279
+        width: 218
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf01db8a159a64a0800000000000000
+      internalID: -6599298362710618165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1279
+        width: 217
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcd2d5618a393e90800000000000000
+      internalID: -7045535814610920202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1279
+        width: 219
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e86ad9da89cc9a70800000000000000
+      internalID: 8835158167191709925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1279
+        width: 256
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8d16e3c1ea231a0800000000000000
+      internalID: -6831206248438703921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1279
+        width: 211
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc1e16ea3f1e2ee0800000000000000
+      internalID: -1284054505924715322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1279
+        width: 185
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c42da26427bebb20800000000000000
+      internalID: 3152158156108145863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_7
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1279
+        width: 187
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1868b0d6067fadf0800000000000000
+      internalID: -166784889545791461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_8
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1279
+        width: 187
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98a0f58fbb101ed0800000000000000
+      internalID: -2445424088262334308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1023
+        width: 180
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83d753b13cc6680800000000000000
+      internalID: -8760412653513525068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1023
+        width: 179
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e16d64b37731100800000000000000
+      internalID: 77536715070643800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1023
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43693ef10305b7680800000000000000
+      internalID: -8756316882868136396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_12
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1023
+        width: 219
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c188297de7edd1830800000000000000
+      internalID: 4043632676812523548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_13
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1023
+        width: 196
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f255cbed5687c780800000000000000
+      internalID: -8662807620278201607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_14
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1023
+        width: 176
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c548261b292b2ead0800000000000000
+      internalID: -2674378885593660324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_15
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1023
+        width: 219
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d368fb773f98ba790800000000000000
+      internalID: -7517763474185812419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_16
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1023
+        width: 218
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97d7a78d712864f0800000000000000
+      internalID: -835380907846674532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_17
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1023
+        width: 218
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cab06d01da9c4550800000000000000
+      internalID: 6146457814117169856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 767
+        width: 180
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcb50691a79cb6b0800000000000000
+      internalID: -5279177942922576687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_19
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 767
+        width: 179
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fdcd8ad1bba6da0800000000000000
+      internalID: -5950738221555196002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 767
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56ce3ac4779436b0800000000000000
+      internalID: -5317458732152600997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_21
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 767
+        width: 220
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfd41d96eac1db70800000000000000
+      internalID: 8922135428624342996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_22
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 767
+        width: 219
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb092535a64b670800000000000000
+      internalID: 8553578498383461563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_23
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 767
+        width: 175
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132ad63bf2c990bf0800000000000000
+      internalID: -357582966711541199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_24
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 767
+        width: 180
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f1ebc0039e3480800000000000000
+      internalID: -8917528580517137699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_25
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 767
+        width: 178
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce5877cda365b00800000000000000
+      internalID: 816905100986805278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_26
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 767
+        width: 178
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6f83ea4b1cb7d50800000000000000
+      internalID: 6736190649423951550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 511
+        width: 180
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7a7fc178e46e510800000000000000
+      internalID: 1578035061653481426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 511
+        width: 179
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b830d5b3549860800000000000000
+      internalID: 7535740116845245492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 511
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af5cc10b351122a0800000000000000
+      internalID: -6764101822156349528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_30
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 511
+        width: 219
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f471c31253233ef0800000000000000
+      internalID: -129721128837876487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 511
+        width: 256
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537290584fc694080800000000000000
+      internalID: -9202704566095108299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_32
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 511
+        width: 211
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388980c82252a20c0800000000000000
+      internalID: -4599823239097051005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_33
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 511
+        width: 180
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75be4c8e49b19ea40800000000000000
+      internalID: 5397875954754579287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_34
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 511
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a8a5a62056a22e0800000000000000
+      internalID: -2149794811067331951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_35
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 511
+        width: 178
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ab340fa82dfeb0800000000000000
+      internalID: -4684543305240043045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 255
+        width: 214
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1c78b6e42f9dca0800000000000000
+      internalID: -5991491410614304289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 213
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ce7fe8e31992de0800000000000000
+      internalID: -1357394114802881520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_38
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 255
+        width: 214
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7ec06182ae5960800000000000000
+      internalID: 7592684698351860813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_39
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 255
+        width: 219
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b63ae04cecb810800000000000000
+      internalID: 1782559316083389208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_40
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 255
+        width: 221
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8980cc529ff02720800000000000000
+      internalID: 2819534370820360587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_41
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 255
+        width: 174
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc623dee414b4a0800000000000000
+      internalID: -6578610139704145050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_42
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 255
+        width: 180
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18097946135894e80800000000000000
+      internalID: -8193871599836360575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_43
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 255
+        width: 178
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e506667f0f80020800000000000000
+      internalID: 2308359754392559254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_44
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 255
+        width: 178
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57016a37d9ddeecc0800000000000000
+      internalID: -3679760177195249547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 185
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a072e08ab584fc940800000000000000
+      internalID: 5318549243446568714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 187
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df27bb374fe1af730800000000000000
+      internalID: 4033570451526218493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_47
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 186
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2996c34456fa53810800000000000000
+      internalID: 1744493280147302802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_48
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 219
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de7dba63959e6b80800000000000000
+      internalID: -8399611794615861550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc195a6d7c84bf910800000000000000
+      internalID: 1872170093239439820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_50
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 211
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d0bc700ba397b70800000000000000
+      internalID: 8897207066566528272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_51
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 0
+        width: 227
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71dcf263a359ffb0800000000000000
+      internalID: -4613564382058851970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_52
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 0
+        width: 227
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3241344c86c2d6f40800000000000000
+      internalID: 5723279529938719779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regulus_53
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 0
+        width: 227
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383fe7fef52b410e0800000000000000
+      internalID: -2300017384569769085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

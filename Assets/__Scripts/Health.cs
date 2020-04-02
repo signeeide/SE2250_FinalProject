@@ -45,7 +45,7 @@ public class Health : MonoBehaviour
 
         if (other.gameObject.tag.Equals("Crow")) health--;
 
-        if (other.gameObject.tag.Equals("Miniboss")) health--;
+        if (other.gameObject.tag.Equals("Boss")) health--;
 
         if (other.gameObject.tag.Equals("BossProjectile")) health--;
 

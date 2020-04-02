@@ -8,42 +8,35 @@ public class MiniBoss : MonoBehaviour
 
     public GameObject projectile;
     public float projSpeed = 3f;
-    //public float projPrSec = 1f;
-    public int health = 500;
-
+    private int health = 500;
     void Start()
     {
         InvokeRepeating("shootProjectile", 8f / 2f, 3f);
     }
-    //start attacking if player is withing a certain distance 
 
     void Update()
     {
         transform.position = Vector3.Lerp(pos1, pos2, (Mathf.Sin(speed * Time.time) + 1.0f) / 2.0f);
     }
-
-   /* IEnumerator shoot()
-    {
-        yield return new WaitForSeconds(4);
-        InvokeRepeating("shootProjectile", 8f / 2f, 3f);
-    }*/
     private void shootProjectile()
     {
         // get projectile properties and instansiate projectiles
         GameObject projectileGO = Instantiate<GameObject>(projectile);
-        //projectileGO.transform.position = transform.position;
         projectileGO.transform.position.Set(transform.position.x + 3f, transform.position.y, transform.position.z); 
         Rigidbody2D rb = projectileGO.GetComponent<Rigidbody2D>(); 
         rb.velocity = Vector3.left * projSpeed;
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
+    public virtual void OnCollisionEnter2D(Collision2D other)
     {
         string tag = other.gameObject.tag;
-        Debug.Log("Miniboss: " + tag);
-
-        if (tag.Equals("ProjectilePlayer")) health -= 30;
         
+        Debug.Log("Health: " + health);
+
+        if (tag.Equals("ProjectilePlayer"))
+        {
+            health -= 30;
+        }
         if (tag.Equals("SlicePlayer")) health -= 100;
 
         if (health <= 0) {

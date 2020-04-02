@@ -14,6 +14,7 @@ TagManager:
   - Miniboss
   - Eagle
   - BossProjectile
+  - Boss
   layers:
   - Default
   - TransparentFX
