@@ -245,6 +245,20 @@ public class Player : MonoBehaviour
         {
             isStartPositionLv2 = false;
             Main.ChangeScene("Scene2");
+            Main.increase = true;
         }
+
+         else if (name == "Stone1")
+         {
+            Main.progress = 5;
+            DialogCanvas.gameIsPausedFrog = true;
+         }
+
+        else if (name == "Stone2")
+        {
+            Main.progress = 6;
+            DialogCanvas.gameIsPausedFrog = true;
+        }
+
     }
 }
