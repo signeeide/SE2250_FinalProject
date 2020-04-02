@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
 {
-
     public Transform target;
 
     public float speed = 200f;
@@ -30,26 +27,6 @@ public class EnemyAI : MonoBehaviour
         // repeatingly generates path
         InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
-
-    void UpdatePath()
-    {
-        // if path generation is done / not currently happening
-        if (seeker.IsDone())
-        {
-            // generates path
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
-        }
-    }
-
-    void OnPathComplete(Path p)
-    {
-        if(!p.error)
-        {
-            path = p;
-            currentWaypoint = 0; // resets path
-        }
-    }
-
 
     void FixedUpdate()
     {
@@ -94,6 +71,25 @@ public class EnemyAI : MonoBehaviour
         else if (force.x <= -0.01f)
         {
             enemyGFX.localScale = new Vector3(2f, 2f, 1f);
+        }
+    }
+
+    void UpdatePath()
+    {
+        // if path generation is done / not currently happening
+        if (seeker.IsDone())
+        {
+            // generates path
+            seeker.StartPath(rb.position, target.position, OnPathComplete);
+        }
+    }
+
+    void OnPathComplete(Path p)
+    {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0; // resets path
         }
     }
 

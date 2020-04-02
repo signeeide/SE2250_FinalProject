@@ -8,22 +8,17 @@ public class DeathMenu : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("AWAKE!");
         isDefeated = false;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log("LOCAL: " + isDefeated);
-
         if (isDefeated)
         {
             Pause();
             isDefeated = false;
         }
-
-        Debug.Log("LOCAL after: " + isDefeated);
     }
 
     public void Pause()
@@ -43,6 +38,6 @@ public class DeathMenu : MonoBehaviour
     {
         Debug.Log("Quitting game.");
         Application.Quit();
-        //This will not show anything in the editor, so we'll keep the log for now to know that something happens.
+        //This will not show anything in the editor, so we'll keep the log to know that something happend.
     }
 }

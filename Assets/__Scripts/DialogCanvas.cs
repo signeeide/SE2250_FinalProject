@@ -16,8 +16,6 @@ public class DialogCanvas : MonoBehaviour
         if (gameIsPausedFrog) Pause();
 
         if (Input.GetKeyDown(KeyCode.X)) Resume();
-
-        Debug.Log("Dialogs progress: " + Main.progress);
     }
 
     public void Resume()

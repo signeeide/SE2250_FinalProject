@@ -5,13 +5,11 @@ public class Player : MonoBehaviour
 {
     static public Player S; //Singleton
     public float speed;
-    public float health = 200f;
     private Rigidbody2D rb2d;
     public Animator animator; // Animator
     public static bool isStartPositionLv1 = true;
     public static bool isStartPositionLv2 = true;
     public float gameRestartDelay = 2f;
-    //public GameObject player;
 
     //jump
     private bool isGrounded;
@@ -23,10 +21,8 @@ public class Player : MonoBehaviour
     //Controllers for animation
     public RuntimeAnimatorController heroDefaultController;
     public RuntimeAnimatorController heroRedController;
-    //public RuntimeAnimatorController heroGreenController;  //Ready for implementation
 
     // Attack
-    //private Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public GameObject projectilePrefabLight;
@@ -34,9 +30,8 @@ public class Player : MonoBehaviour
     public float projectileSpeed = 20f;
     static public GameObject slice = null;
     public GameObject slicePrefab;
-    //private GameObject attackPoint;
 
-    //Progress
+    //Progress trackers
     public bool redDress = false;
     private bool lv2 = false;
     public bool dark = false;
@@ -45,25 +40,19 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-
-        if (S == null) {
-            S = this;
-        }
-        else {
-            Debug.LogError("Hello.Awake() - Attempted to assign second Hero.S!");
-        }
+        if (S == null) S = this;
+        else Debug.LogError("Hello.Awake() - Attempted to assign second Hero.S!");
+        
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
 
-        if (!isStartPositionLv1 && SceneManager.GetActiveScene().name.Equals("Scene1")) PlayerPosition(60.17f);
+        if (!isStartPositionLv1 && SceneManager.GetActiveScene().name.Equals("Scene1")) PlayerPositionX(60.17f);
         
-        else if (!isStartPositionLv2 && SceneManager.GetActiveScene().name.Equals("Scene2")) PlayerPosition(45.72f);
+        else if (!isStartPositionLv2 && SceneManager.GetActiveScene().name.Equals("Scene2")) PlayerPositionX(45.72f);
     }
 
-    //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = new Vector2(moveHorizontal * speed, rb2d.velocity.y);
@@ -143,7 +132,7 @@ public class Player : MonoBehaviour
         transform.position = temPos;
     }
 
-    private void PlayerPosition(float x)
+    private void PlayerPositionX(float x)
     {
         Vector3 temPos = transform.position;
         temPos.x = x;
@@ -164,8 +153,6 @@ public class Player : MonoBehaviour
 
     void Slice()
     {
-        //attackPoint.SetActive(true);
-
         slice = Instantiate<GameObject>(slicePrefab);
         Vector3 temPos = transform.position;
         temPos.x += 0.4f;
@@ -174,7 +161,6 @@ public class Player : MonoBehaviour
         //Wait before destroying the slice
         Invoke("DestroySlice", 0.8f);
     }
-
 
     void DestroySlice()
     {
@@ -195,8 +181,6 @@ public class Player : MonoBehaviour
 
         /* In scene1 */ 
         if (name == "CastleEntrance") Main.ChangeScene("Scene0");
-
-        Debug.Log(Main.progress);
 
         if (name == "frog")
         {
@@ -226,7 +210,7 @@ public class Player : MonoBehaviour
             Main.ChangeScene("Scene1");
         }
 
-        else if (name == "OutsideLv") PlayerPosition(2f);
+        else if (name == "OutsideLv") PlayerPositionX(2f);
 
 
         else if (name == "Chest")

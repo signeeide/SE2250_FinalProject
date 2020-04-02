@@ -48,9 +48,8 @@ public class EnemyBee : MonoBehaviour
         pos.x = 55.67f;
         pos.y = -0.7f;
         go.transform.position = pos;
-
-
     }
+
     public virtual void Move()
     {
         // flips movement to opposite of current
@@ -78,7 +77,6 @@ public class EnemyBee : MonoBehaviour
         {
             Destroy(this.gameObject);
             Main.enemiesDestroied++;
-            Debug.Log("ED!!");
         }
 
         if (other.gameObject.tag.Equals("Player")) Health.health--;
@@ -99,9 +97,7 @@ public class EnemyBee : MonoBehaviour
         if (other.tag.Equals("LeftBounds"))
         {
             isRight = false;
-
             sprRen.flipX = !sprRen.flipX; // Flips sprite to opposite 
-
         }
     }
 }

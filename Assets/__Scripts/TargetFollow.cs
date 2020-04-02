@@ -57,9 +57,7 @@ public class TargetFollow : MonoBehaviour
         //align tha camera and the targets z position
         targetPos.z = transform.position.z;
 
-        //Using smooth damp we will gradually change the camera transform
-        //position to tha target position based on the cameras transform
-        //velocity and our smooth time
+        //Using smooth: gradually change the camera
         transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref velocity, smoothTime);
     }
 }

@@ -9,6 +9,7 @@ public class MiniBoss : MonoBehaviour
     public GameObject projectile;
     public float projSpeed = 3f;
     private int health = 500;
+
     void Start()
     {
         InvokeRepeating("shootProjectile", 8f / 2f, 3f);
