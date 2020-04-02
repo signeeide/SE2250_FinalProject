@@ -20,8 +20,6 @@ public class Main : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Main progress: " + progress);
-
         if (progress == 1 && spawn)
         {
             SpawnEnemy();
